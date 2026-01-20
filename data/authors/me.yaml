@@ -9,12 +9,12 @@ name:
   alternate: Jahid
   pronouns: he/him
 
-role: Climate & Ecosystem Modelling | Biosphere–Atmosphere Interactions | Land-Use Change
+role: Climate & Ecosystem Modelling | Biosphere-Atmosphere Interactions | Land-Use Change
 
 bio: |
   I am interested in climate change adaptation and ecosystem responses to environmental stress,
-  with a background in climate and ecosystem modelling, biosphere–atmosphere interactions,
-  and land-use change. My research focuses on improving photosynthesis and gross primary
+  with a background in climate and ecosystem modelling, biosphere-atmosphere interactions,
+  and land-use change. My research focuses on improving photosynthesis and gross primary productivity
   productivity (GPP) estimation in terrestrial biosphere models using observational
   constraints such as chlorophyll fluorescence.
 
@@ -31,7 +31,7 @@ links:
 interests:
   - Terrestrial biosphere modelling
   - Photosynthesis & chlorophyll fluorescence
-  - Climate–carbon feedbacks
+  - Climate-carbon feedbacks
   - Land-use and ecosystem change
   - Remote sensing & GIS
 
@@ -42,7 +42,7 @@ education:
     end: 2025-10-31
     summary: |
       Coursework and research focused on terrestrial biosphere modelling,
-      climate–ecosystem interactions, and land-surface processes.
+      climate-ecosystem interactions, and land-surface processes.
   - degree: Master of Science in Environmental Science
     institution: Bangladesh Agricultural University
     start: 2022-10-01
@@ -54,7 +54,7 @@ education:
 
 experience:
   - role: Research Intern
-    org: LSCE (CEA–CNRS), MOSAIC Team
+    org: LSCE (CEA-CNRS), MOSAIC Team
     start: 2025-05-01
     end: 2025-10-31
     summary: |
