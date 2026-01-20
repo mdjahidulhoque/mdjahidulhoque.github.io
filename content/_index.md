@@ -46,7 +46,7 @@ sections:
         Having directly observed and experienced climate-related challenges, I am motivated to contribute to research that connects real-world impacts with quantitative
         and modelling-based approaches.
 
-        I work across climate and ecosystem modelling, biosphere–atmosphere interactions, remote sensing, and data-driven environmental analysis.
+        I work across climate and ecosystem modelling, biosphere-atmosphere interactions, remote sensing, and data-driven environmental analysis.
         I actively welcome collaborative research opportunities and interdisciplinary projects where my background and skills can contribute meaningfully to ongoing
         or emerging research on climate impacts, ecosystem resilience, and adaptation.
     design:
