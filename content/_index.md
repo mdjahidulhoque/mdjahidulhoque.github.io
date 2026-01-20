@@ -13,8 +13,8 @@ sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: Md. Jahidul Hoque
-      text: I am interested in climate change adaptation and ecosystem responses to environmental stress, with a background in climate & ecosystem modelling, biosphere-atmosphere interactions, and land-use change.
+      username: admin
+      text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
