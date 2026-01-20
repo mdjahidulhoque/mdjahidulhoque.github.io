@@ -2,10 +2,10 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
+  display: Md. Jahidul Hoque
+  given: Md. Jahidul
+  family: Hoque
+  alternate: Jahid
   pronunciation: ''  # Example: Wáng Wěi
   pronouns: he/him
 postnominals:
