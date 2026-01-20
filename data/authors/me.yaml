@@ -98,3 +98,23 @@ languages:
   - name: French
     level: 2
     label: A1
+awards:
+  - title: French Government Scholarship
+    awarder: French Government / Université Paris-Saclay
+    date: "2024-09-01"
+    summary: Awarded for Master’s studies in Climate, Land-Use and Ecosystem Services (CLUES) at AgroParisTech.
+
+  - title: Eiffel Excellence Scholarship (Nomination)
+    awarder: Université Paris-Saclay
+    date: "2024-04-01"
+    summary: Nominated for the Eiffel Excellence Scholarship at Master’s level.
+
+  - title: National Science and Technology (NST) Fellowship
+    awarder: Ministry of Science and Technology, Government of Bangladesh
+    date: "2022-01-01"
+    summary: Competitive national fellowship awarded for academic excellence.
+
+  - title: Education Board Scholarships
+    awarder: Government of Bangladesh
+    date: "2015-01-01"
+    summary: Multiple merit-based scholarships awarded during secondary and higher secondary education.
