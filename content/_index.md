@@ -39,14 +39,16 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🤝 Research & Collaboration'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research focuses on understanding climate change impacts on ecosystems and land-use systems, particularly in regions that are highly vulnerable to climate extremes.
+        Having directly observed and experienced climate-related challenges, I am motivated to contribute to research that connects real-world impacts with quantitative
+        and modelling-based approaches.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        I work across climate and ecosystem modelling, biosphere–atmosphere interactions, remote sensing, and data-driven environmental analysis.
+        I actively welcome collaborative research opportunities and interdisciplinary projects where my background and skills can contribute meaningfully to ongoing
+        or emerging research on climate impacts, ecosystem resilience, and adaptation.
     design:
       columns: '1'
 ---
