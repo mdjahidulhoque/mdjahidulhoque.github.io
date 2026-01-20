@@ -30,7 +30,7 @@ sections:
           enable: true
 
       # Name heading sizing to accommodate long or short names
-      name:
+      name: Md. Jahidul Hoque
         size: md # Options: xs, sm, md, lg (default), xl
 
       # Avatar customization
