@@ -14,20 +14,16 @@ type: page
 
 ## Manuscripts and Theses
 
-- **Hoque, M. J.** (2025).  
-  *Enhancing global photosynthesis estimation using the Farquhar Model Recharged: mechanistic light-dependent reactions.*  
+- *Enhancing global photosynthesis estimation using the Farquhar Model Recharged: mechanistic light-dependent reactions.*  
   M2 Internship Report, LSCE (CEA–CNRS), Université Paris-Saclay.
 
-- **Hoque, M. J.**  
-  *Assessment of Transformation of Agricultural Land based on Land Use and Land Cover (LULC) Dynamics in the Ganges–Padma Floodplain.*  
+- *Assessment of Transformation of Agricultural Land based on Land Use and Land Cover (LULC) Dynamics in the Ganges–Padma Floodplain.*  
   Master’s thesis, Bangladesh Agricultural University. *(Manuscript submitted)*
 
-- **Hoque, M. J.**  
-  *Assessment of Land Use and Land Cover (LULC) and Land Surface Temperature (LST) in the North-Eastern Haor (wetland) Areas of Bangladesh.*  
+- *Assessment of Land Use and Land Cover (LULC) and Land Surface Temperature (LST) in the North-Eastern Haor (wetland) Areas of Bangladesh.*  
   *(Manuscript submitted)*
 
-- **Hoque, M. J.**  
-  *Prediction of Land Use and Land Cover Pattern in the Hilly Region of Chattogram, Bangladesh Using Satellite Data.*  
+- *Prediction of Land Use and Land Cover Pattern in the Hilly Region of Chattogram, Bangladesh Using Satellite Data.*  
   *(Manuscript in preparation)*
 
 ---
