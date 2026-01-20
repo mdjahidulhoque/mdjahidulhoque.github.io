@@ -27,8 +27,6 @@ links:
     label: E-mail
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/mdjahidulhoque
-  - icon: brands/github
-    url: https://github.com/mdjahidulhoque
 
 interests:
   - Terrestrial biosphere modelling
