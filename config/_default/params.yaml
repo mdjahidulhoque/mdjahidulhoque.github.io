@@ -76,9 +76,7 @@ hugoblox:
   # FOOTER (CLEAN)
   # ────────────────────────────────────────────────────────────────────────────
   footer:
-    style: minimal
-    language_switcher: false
-    text: ""
+    enable: false
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT (DISABLED)
