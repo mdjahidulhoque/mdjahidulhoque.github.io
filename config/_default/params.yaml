@@ -1,3 +1,5 @@
+  appearance:
+    favicon: favicon.png
 # ══════════════════════════════════════════════════════════════════════════════
 # HUGO BLOX CONFIGURATION
 # Schema: hugoblox.com/schema/v2
@@ -216,6 +218,3 @@ hugoblox:
   pro:
     hide_attribution: true
     affiliate_code: ""
-
-  appearance:
-    favicon: favicon.png
