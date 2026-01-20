@@ -216,3 +216,5 @@ hugoblox:
   pro:
     hide_attribution: true
     affiliate_code: ""
+appearance:
+  favicon: favicon-jh.ico
