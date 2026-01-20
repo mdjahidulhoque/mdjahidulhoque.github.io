@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: Md. Jahidul Hoque
 summary: ''
 date: 2022-10-24
 type: landing
@@ -14,7 +14,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: ''
+      text: I am interested in climate change adaptation and ecosystem responses to environmental stress, with a background in climate & ecosystem modelling, biosphere–atmosphere interactions, and land-use change.
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
