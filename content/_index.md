@@ -21,8 +21,9 @@ sections:
         url: uploads/CV of Md. Jahidul Hoque.pdf
       headings:
         about: ''
-        education: ''
-        interests: ''
+  - block: resume-education
+    content:
+      title: Education
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
