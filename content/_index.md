@@ -6,48 +6,43 @@ date: 2022-10-24
 type: landing
 
 design:
+  # Default section spacing
   spacing: '6rem'
 
 sections:
-  # ─────────────────────────────────────────────────────────────
-  # HERO + BIOGRAPHY (includes profile, education source, interests)
-  # ─────────────────────────────────────────────────────────────
   - block: resume-biography-3
     content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
+      # Call-to-action button
       button:
         text: Download CV
         url: uploads/CV of Md. Jahidul Hoque.pdf
+      # Disable internal section headings (prevents auto-focus/jump)
       headings:
         about: ''
         education: ''
         interests: ''
     design:
+      # Gradient background
       background:
         gradient_mesh:
           enable: true
+
+      # Name heading sizing
       name:
         size: md
+
+      # Avatar customization
       avatar:
         size: medium
         shape: circle
 
-  # ─────────────────────────────────────────────────────────────
-  # EDUCATION (shown explicitly on landing page)
-  # ─────────────────────────────────────────────────────────────
-  - block: resume-education
-    content:
-      title: Education
-    design:
-      columns: 3
-
-  # ─────────────────────────────────────────────────────────────
-  # RESEARCH & COLLABORATION
-  # ─────────────────────────────────────────────────────────────
   - block: markdown
     content:
       title: '🤝 Research & Collaboration'
+      subtitle: ''
       text: |-
         My research focuses on understanding climate change impacts on ecosystems and land-use systems, particularly in regions that are highly vulnerable to climate extremes.
         Having directly observed and experienced climate-related challenges, I am motivated to contribute to research that connects real-world impacts with quantitative
