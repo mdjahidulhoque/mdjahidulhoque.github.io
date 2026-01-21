@@ -34,6 +34,40 @@ interests:
   - Climate-carbon feedbacks
   - Land-use and ecosystem change
   - Remote sensing & GIS
+education:
+  - degree: Master of Science (M2) in Climate, Land-Use and Ecosystem Services
+    institution: AgroParisTech, Université Paris-Saclay
+    institution_url: https://www.agroparistech.fr
+    start: 2024-09-01
+    end: 2025-10-31
+    summary: |
+      Advanced training in climate science, land-use change, and ecosystem services.
+      Coursework and research focused on terrestrial biosphere modelling,
+      biosphere–atmosphere interactions, land-surface processes,
+      and improving photosynthesis and gross primary productivity (GPP)
+      representation using observational constraints such as chlorophyll fluorescence.
+
+  - degree: Master of Science in Environmental Science
+    institution: Bangladesh Agricultural University
+    institution_url: https://www.bau.edu.bd
+    start: 2022-10-01
+    end: 2024-04-30
+    summary: |
+      Graduate-level training in environmental science with emphasis on climate change impacts,
+      ecosystem processes, land-use dynamics, and environmental monitoring.
+      Research experience included GIS and remote sensing applications
+      and analysis of agricultural land transformation.
+
+  - degree: Bachelor of Science in Environmental Science
+    institution: Noakhali Science and Technology University
+    institution_url: https://www.nstu.edu.bd
+    start: 2017-01-01
+    end: 2022-07-31
+    summary: |
+      Undergraduate training in environmental science covering ecology,
+      environmental chemistry, climatology, and natural resource management.
+      Developed strong foundations in field-based environmental assessment,
+      data analysis, and introductory GIS techniques.
 
 experience:
   - role: Research Intern
