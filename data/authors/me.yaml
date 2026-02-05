@@ -114,7 +114,7 @@ languages:
     level: 4
     label: C1
   - name: French
-    level: 2
+    level: 1
     label: A1
 awards:
   - title: French Government Scholarship
