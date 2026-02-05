@@ -14,11 +14,3 @@ main:
   - name: Activities
     url: /projects/activities/
     weight: 40
-
-  - name: Collaborations
-    url: /projects/collaborations/
-    weight: 50
-
-  - name: Miscellaneous
-    url: /projects/
-    weight: 60
