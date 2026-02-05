@@ -7,8 +7,7 @@ type: page
 
 - **Hoque, M. J., et al.** (2026).  
   *Transforming the Floodplain: Agricultural Encroachment and Landscape Change in the Northwestern Ganges-Padma Basin.*  
-  **Geo: Geography and Environment** - Accepted (1 February 2026); In production.  
-  https://doi.org/10.1002/geo2.70067  
+  **Geo: Geography and Environment** - Accepted (1 February 2026); In production.
 
   **Note:** This journal article was developed from my Master’s thesis research.
 
