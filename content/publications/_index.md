@@ -6,8 +6,8 @@ type: page
 ## Journal Articles
 
 - **Hoque, M. J., et al.** (2026).  
-  *Transforming the Floodplain: Agricultural Encroachment and Landscape Change in the Northwestern Ganges–Padma Basin.*  
-  **Geo: Geography and Environment** — Accepted (1 February 2026); In production.  
+  *Transforming the Floodplain: Agricultural Encroachment and Landscape Change in the Northwestern Ganges-Padma Basin.*  
+  **Geo: Geography and Environment** - Accepted (1 February 2026); In production.  
   https://doi.org/10.1002/geo2.70067  
 
   **Note:** This journal article was developed from my Master’s thesis research.
@@ -22,7 +22,7 @@ type: page
 ## Manuscripts and Reports
 
 - *Enhancing global photosynthesis estimation using the Farquhar Model Recharged: mechanistic light-dependent reactions.*  
-  M2 Internship Report, Laboratoire des Sciences du Climat et de l’Environnement (LSCE), CEA–CNRS, Université Paris-Saclay, France (2025).
+  M2 Internship Report, Laboratoire des Sciences du Climat et de l’Environnement (LSCE), CEA-CNRS, Université Paris-Saclay, France (2025).
 
 - *Assessment of Land Use and Land Cover (LULC) and Land Surface Temperature (LST) in the North-Eastern Haor (Wetland) Areas of Bangladesh.*  
   *(Manuscript submitted).*
@@ -36,7 +36,7 @@ type: page
 
 - **Martini, D., Hoque, M. J., Johnson, J. E., Wohlfahrt, G., & Maignan, F.** (2025).  
   *Implementing the Johnson & Berry photosynthetic model in the ORCHIDEE terrestrial biosphere model for SIF-constrained GPP estimations under stress conditions.*  
-  **AGU Fall Meeting 2025** — *Poster*.
+  **AGU Fall Meeting 2025** - *Poster*.
 
 - *Seasonal Variabilities and Human Casualties of Lightning Events in Bangladesh Using Vaisala GLD360 Data.*  
-  **8th Annual International Conference on Social Research in Bangladesh**, 2023 — *Oral presentation*.
+  **8th Annual International Conference on Social Research in Bangladesh**, 2023 - *Oral presentation*.
