@@ -5,15 +5,15 @@ type: page
 
 ## Journal Articles
 
-- **Hoque, M. J., et al.** (2026).  
+- **Hoque, M. J.**, Hossain, M. S., Sejuti, S. I., & Farukh, M. A. (2026).  
   *Transforming the Floodplain: Agricultural Encroachment and Landscape Change in the Northwestern Ganges-Padma Basin.*  
-  **Geo: Geography and Environment** - Accepted (1 February 2026); In production.
+  **Geo: Geography and Environment, 13:e70067.**  
+  https://doi.org/10.1002/geo2.70067  
+  _Developed from my Master’s thesis research (Bangladesh Agricultural University)._
 
-  **Note:** This journal article was developed from my Master’s thesis research.
-
-- **Farukh, M. A., Brahma, P. P., Hossain, M. S., Hoque, M. J., Sejuti, S. I., Shammy, U. S., & Arefin, K. S.** (2026).  
+- Farukh, M. A., Brahma, P. P., Hossain, M. S., **Hoque, M. J.**, Sejuti, S. I., Shammy, U. S., & Arefin, K. S. (2026).  
   *Climatological assessment of pre-monsoon heatwave days in Bangladesh and their relationship to Indo-Pacific circulation anomalies.*  
-  **Natural Hazards, 122**, 32.  
+  **Natural Hazards, 122:32.**  
   https://doi.org/10.1007/s11069-025-07746-7
 
 ---
