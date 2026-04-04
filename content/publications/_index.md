@@ -34,7 +34,7 @@ type: page
 ## Conference Contributions
 
 - **Martini, D., Hoque, M. J., Johnson, J. E., Wohlfahrt, G., & Maignan, F.** (2025).  
-  *Implementing the Johnson & Berry photosynthetic model in the ORCHIDEE terrestrial biosphere model for SIF-constrained GPP estimations under stress conditions.*  
+  *Temperature response of the Johnson & Berry model: Steps toward SIF-constrained GPP estimation in ORCHIDEE.*  
   **AGU Fall Meeting 2025** - *Poster*.
 
 - *Seasonal Variabilities and Human Casualties of Lightning Events in Bangladesh Using Vaisala GLD360 Data.*  
