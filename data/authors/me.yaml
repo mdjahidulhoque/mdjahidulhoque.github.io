@@ -52,11 +52,9 @@ education:
     start: 2024-09-01
     end: 2025-10-31
     summary: |
-      Advanced training in climate science, land-use change, ecosystem services,
-      and terrestrial biosphere modelling. Coursework and research focused on
-      biosphere–atmosphere interactions, land-surface processes, and improving
-      photosynthesis and gross primary productivity representation using
-      observational constraints such as chlorophyll fluorescence.
+      - Advanced training in climate science, land-use change, ecosystem services, and terrestrial biosphere modelling.
+      - Studied biosphere–atmosphere interactions, land-surface processes, and ecosystem responses to environmental change.
+      - Conducted research on improving photosynthesis and gross primary productivity representation using chlorophyll-fluorescence observations.
 
   - degree: Master of Science in Environmental Science
     institution: Bangladesh Agricultural University
@@ -64,9 +62,9 @@ education:
     start: 2022-10-01
     end: 2024-04-30
     summary: |
-      Graduate-level training in environmental science with emphasis on climate change,
-      ecosystem processes, land-use dynamics, and environmental monitoring.
-      Research experience included GIS, remote sensing, and agricultural land-use analysis.
+      - Completed graduate-level training in climate change, ecosystem processes, land-use dynamics, and environmental monitoring.
+      - Applied GIS and remote-sensing methods to agricultural land-use and environmental-change analysis.
+      - Integrated field observations with spatial and environmental datasets.
 
   - degree: Bachelor of Science in Environmental Science
     institution: Noakhali Science and Technology University
@@ -74,72 +72,44 @@ education:
     start: 2017-01-01
     end: 2022-07-31
     summary: |
-      Undergraduate training in environmental science covering ecology,
-      environmental chemistry, climatology, natural resource management,
-      environmental assessment, data analysis, and GIS.
+      - Built foundations in ecology, environmental chemistry, climatology, and natural-resource management.
+      - Developed experience in environmental assessment, quantitative data analysis, and GIS.
+      - Completed interdisciplinary training across environmental science and sustainability.
 
 experience:
   - role: Data Analyst
     org: FABLE Consortium, UN Sustainable Development Solutions Network
     start: 2026-06-22
     summary: |
-      Contribute to the development and harmonisation of global datasets and
-      reproducible analytical workflows for integrated food, agriculture,
-      land-use, water, and climate modelling within the FABLE Calculator.
-
-      Support the reconciliation of agricultural production, food-balance,
-      and bilateral trade datasets, including the processing and comparison
-      of FABIO and FAO data for use in FABLE modelling workflows.
-
-      Develop spatially explicit datasets on irrigated area, crop water requirements,
-      water withdrawal, and water availability using sources such as SPAM, ISIMIP,
-      FAO, and other global environmental datasets. Contribute to methods for
-      improving sustainable water-use representation, environmental-flow constraints,
-      and climate-change impacts in the FABLE Calculator.
-
-      Contribute to analytical work on nitrogen use, N2O emissions, agricultural
-      productivity, wildfire risk, and future climate extremes. Improve a Google
-      Earth Engine application for analysing and visualising climate-extreme indices,
-      climate risks, and land-cover change.
-
-      Use Python, R, Google Earth Engine, and geospatial tools to process,
-      harmonise, validate, and visualise large environmental datasets across
-      countries, crops, time periods, and spatial scales.
+      - Develop and harmonise global datasets and reproducible analytical workflows for integrated food, agriculture, land-use, water, and climate modelling within the FABLE Calculator.
+      - Reconcile agricultural production, food-balance, and bilateral-trade datasets, including the processing and comparison of FABIO and FAO data.
+      - Build spatially explicit datasets on irrigated area, crop-water requirements, water withdrawal, and water availability using SPAM, ISIMIP, FAO, and other global datasets.
+      - Contribute to improved representation of sustainable water use, environmental-flow constraints, and climate-change impacts in the FABLE Calculator.
+      - Support analytical work on nitrogen use, N2O emissions, agricultural productivity, wildfire risk, and future climate extremes.
+      - Improve a Google Earth Engine application for analysing and visualising climate-extreme indices, climate risks, and land-cover change.
+      - Use Python, R, Google Earth Engine, and geospatial tools to process, validate, harmonise, and visualise large environmental datasets across countries, crops, time periods, and spatial scales.
 
   - role: Research Intern
     org: Laboratory for Climate and Environmental Sciences (LSCE-CEA-CNRS), MOSAIC Team
     start: 2025-05-01
     end: 2025-10-31
     summary: |
-      Contributed to the implementation and evaluation of the Johnson and Berry
-      mechanistic photosynthesis framework within the ORCHIDEE terrestrial
-      biosphere model.
-
-      Investigated how solar-induced chlorophyll fluorescence and eddy-covariance
-      observations could be used to improve photosynthesis and gross primary
-      productivity estimation across multiple ecosystem sites.
-
-      Conducted literature synthesis and meta-analysis of pulse-amplitude-modulated
-      chlorophyll-fluorescence datasets and analysed relationships among fluorescence,
-      photosynthesis, and ecosystem carbon fluxes.
-
-      Worked with terrestrial ecosystem model outputs, observational datasets,
-      R, Fortran, and high-performance computing workflows.
+      - Contributed to the implementation and evaluation of the Johnson and Berry mechanistic photosynthesis framework within the ORCHIDEE terrestrial biosphere model.
+      - Investigated the use of solar-induced chlorophyll fluorescence and eddy-covariance observations to improve photosynthesis and gross primary productivity estimation.
+      - Analysed ecosystem observations and model outputs across multiple eddy-covariance sites.
+      - Conducted literature synthesis and meta-analysis of pulse-amplitude-modulated chlorophyll-fluorescence datasets.
+      - Examined relationships among fluorescence, photosynthesis, and ecosystem carbon fluxes.
+      - Worked with R, Fortran, observational datasets, terrestrial ecosystem model outputs, and high-performance computing workflows.
 
   - role: Research Assistant
     org: Bangladesh Agricultural University
     start: 2022-11-01
     end: 2024-04-30
     summary: |
-      Contributed to FAO-funded research on agricultural land transformation
-      and land-use change.
-
-      Conducted land-use and land-cover analysis using Google Earth Engine,
-      GIS, and remote-sensing datasets. Integrated field observations with
-      spatial data to assess agricultural land dynamics and environmental change.
-
-      Supported data processing, map production, statistical analysis,
-      literature review, and preparation of research outputs.
+      - Contributed to FAO-funded research on agricultural land transformation and land-use change.
+      - Conducted land-use and land-cover analysis using Google Earth Engine, GIS, and remote-sensing datasets.
+      - Integrated field observations with spatial data to assess agricultural land dynamics and environmental change.
+      - Supported data processing, statistical analysis, map production, literature review, and preparation of research outputs.
 
 skills:
   - name: Programming & Data Analysis
@@ -188,19 +158,23 @@ awards:
   - title: French Government Scholarship
     awarder: French Government / Université Paris-Saclay
     date: "2024-09-01"
-    summary: Awarded for Master's studies in Climate, Land-Use and Ecosystem Services at AgroParisTech.
+    summary: |
+      - Awarded to pursue the Master's programme in Climate, Land-Use and Ecosystem Services at AgroParisTech.
 
   - title: Eiffel Excellence Scholarship (Nomination)
     awarder: Université Paris-Saclay
     date: "2024-04-01"
-    summary: Nominated for the Eiffel Excellence Scholarship at Master's level.
+    summary: |
+      - Nominated by Université Paris-Saclay for the Eiffel Excellence Scholarship at Master's level.
 
   - title: National Science and Technology Fellowship
     awarder: Ministry of Science and Technology, Government of Bangladesh
     date: "2022-01-01"
-    summary: Competitive national fellowship awarded for academic excellence.
+    summary: |
+      - Competitive national fellowship awarded for academic excellence and research potential.
 
   - title: Education Board Scholarships
     awarder: Government of Bangladesh
     date: "2015-01-01"
-    summary: Merit-based scholarships awarded during secondary and higher secondary education.
+    summary: |
+      - Received multiple merit-based scholarships during secondary and higher-secondary education.
