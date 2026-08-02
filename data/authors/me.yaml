@@ -78,6 +78,69 @@ education:
       environmental chemistry, climatology, natural resource management,
       environmental assessment, data analysis, and GIS.
 
+experience:
+  - role: Data Analyst
+    org: FABLE Consortium, UN Sustainable Development Solutions Network
+    start: 2026-06-22
+    summary: |
+      Contribute to the development and harmonisation of global datasets and
+      reproducible analytical workflows for integrated food, agriculture,
+      land-use, water, and climate modelling within the FABLE Calculator.
+
+      Support the reconciliation of agricultural production, food-balance,
+      and bilateral trade datasets, including the processing and comparison
+      of FABIO and FAO data for use in FABLE modelling workflows.
+
+      Develop spatially explicit datasets on irrigated area, crop water requirements,
+      water withdrawal, and water availability using sources such as SPAM, ISIMIP,
+      FAO, and other global environmental datasets. Contribute to methods for
+      improving sustainable water-use representation, environmental-flow constraints,
+      and climate-change impacts in the FABLE Calculator.
+
+      Contribute to analytical work on nitrogen use, N2O emissions, agricultural
+      productivity, wildfire risk, and future climate extremes. Improve a Google
+      Earth Engine application for analysing and visualising climate-extreme indices,
+      climate risks, and land-cover change.
+
+      Use Python, R, Google Earth Engine, and geospatial tools to process,
+      harmonise, validate, and visualise large environmental datasets across
+      countries, crops, time periods, and spatial scales.
+
+  - role: Research Intern
+    org: Laboratory for Climate and Environmental Sciences (LSCE-CEA-CNRS), MOSAIC Team
+    start: 2025-05-01
+    end: 2025-10-31
+    summary: |
+      Contributed to the implementation and evaluation of the Johnson and Berry
+      mechanistic photosynthesis framework within the ORCHIDEE terrestrial
+      biosphere model.
+
+      Investigated how solar-induced chlorophyll fluorescence and eddy-covariance
+      observations could be used to improve photosynthesis and gross primary
+      productivity estimation across multiple ecosystem sites.
+
+      Conducted literature synthesis and meta-analysis of pulse-amplitude-modulated
+      chlorophyll-fluorescence datasets and analysed relationships among fluorescence,
+      photosynthesis, and ecosystem carbon fluxes.
+
+      Worked with terrestrial ecosystem model outputs, observational datasets,
+      R, Fortran, and high-performance computing workflows.
+
+  - role: Research Assistant
+    org: Bangladesh Agricultural University
+    start: 2022-11-01
+    end: 2024-04-30
+    summary: |
+      Contributed to FAO-funded research on agricultural land transformation
+      and land-use change.
+
+      Conducted land-use and land-cover analysis using Google Earth Engine,
+      GIS, and remote-sensing datasets. Integrated field observations with
+      spatial data to assess agricultural land dynamics and environmental change.
+
+      Supported data processing, map production, statistical analysis,
+      literature review, and preparation of research outputs.
+
 skills:
   - name: Programming & Data Analysis
     items:
