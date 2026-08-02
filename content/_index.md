@@ -1,8 +1,8 @@
 ---
 # Leave the homepage title empty to use the site title
 title: Md. Jahidul Hoque
-summary: ''
-date: 2022-10-24
+summary: Environmental data analyst and researcher working across climate, ecosystems, land-use systems, and Earth observation.
+date: 2026-08-02
 type: landing
 
 design:
@@ -12,18 +12,21 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
+      # Choose a user profile to display
       username: me
       text: ''
+
       # Call-to-action button
       button:
         text: Download CV
         url: uploads/CV of Md. Jahidul Hoque.pdf
-      # Disable internal section headings (prevents auto-focus/jump)
+
+      # Disable internal section headings
       headings:
         about: ''
         education: ''
         interests: ''
+
     design:
       # Gradient background
       background:
@@ -44,13 +47,25 @@ sections:
       title: '🤝 Research & Collaboration'
       subtitle: ''
       text: |-
-        My research focuses on understanding climate change impacts on ecosystems and land-use systems, particularly in regions that are highly vulnerable to climate extremes.
-        Having directly observed and experienced climate-related challenges, I am motivated to contribute to research that connects real-world impacts with quantitative
-        and modelling-based approaches.
+        My work lies at the intersection of climate change, ecosystem processes,
+        land-use systems, agriculture, water resources, and environmental data science.
+        I currently contribute to the FABLE Consortium at the UN Sustainable Development
+        Solutions Network, where I support the development of environmental datasets
+        and analytical workflows for integrated food, land, water, and climate systems.
 
-        I work across climate and ecosystem modelling, biosphere-atmosphere interactions, remote sensing, and data-driven environmental analysis.
-        I actively welcome collaborative research opportunities and interdisciplinary projects where my background and skills can contribute meaningfully to ongoing
-        or emerging research on climate impacts, ecosystem resilience, and adaptation.
+        My research background is centred on terrestrial biosphere modelling,
+        biosphere–atmosphere interactions, and photosynthesis modelling. At the
+        Laboratory for Climate and Environmental Sciences (LSCE), I worked with
+        the ORCHIDEE terrestrial biosphere model and investigated how chlorophyll
+        fluorescence and eddy-covariance observations can improve photosynthesis
+        and gross primary productivity estimation.
+
+        I am particularly interested in research that combines process-based ecosystem
+        models, Earth observation, geospatial analysis, and reproducible data science.
+        I welcome collaborations and interdisciplinary projects related to terrestrial
+        ecosystem modelling, climate impacts, land-use and food systems, water resources,
+        remote sensing, and environmental sustainability.
+
     design:
       columns: '1'
 ---
