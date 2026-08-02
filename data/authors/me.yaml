@@ -9,24 +9,42 @@ name:
   alternate: Jahid
   pronouns: he/him
 
-role: Climate & Ecosystem Modelling | Biosphere-Atmosphere Interactions | Land-Use Change
+role: Environmental Data Analyst | Climate & Ecosystem Modelling | Earth Observation
 
 bio: |
-  I am interested in climate change adaptation and ecosystem responses to environmental stress,
-  with a background in climate and ecosystem modelling, biosphere-atmosphere interactions,
-  and land-use change. My research focuses on improving photosynthesis and gross primary
-  productivity (GPP) estimation in terrestrial biosphere models using observational
-  constraints such as chlorophyll fluorescence.
+  I am an environmental researcher and data analyst working at the intersection of climate change,
+  land-use systems, agriculture, water resources, and ecosystem modelling. I currently work with
+  the FABLE Consortium at the UN Sustainable Development Solutions Network (UN SDSN), contributing
+  to environmental data development and analytical workflows that support integrated food, land,
+  water, and climate systems.
+
+  My research background is centred on terrestrial biosphere modelling, biosphere–atmosphere
+  interactions, and photosynthesis modelling. During my Master's research at the Laboratory for
+  Climate and Environmental Sciences (LSCE), I investigated the use of solar-induced chlorophyll
+  fluorescence (SIF) and eddy-covariance observations to improve photosynthesis and gross primary
+  productivity (GPP) estimation within the ORCHIDEE terrestrial biosphere model.
+
+  I am interested in integrating process-based ecosystem models, Earth observation, geospatial
+  analysis, and environmental data science to better understand ecosystem responses to climate
+  and environmental change.
 
 affiliations:
+  - name: FABLE Consortium, UN Sustainable Development Solutions Network
+    url: https://fableconsortium.org
+
   - name: AgroParisTech, Université Paris-Saclay
+    url: https://www.agroparistech.fr
 
 interests:
   - Terrestrial biosphere modelling
-  - Photosynthesis & chlorophyll fluorescence
-  - Climate-carbon feedbacks
-  - Land-use and ecosystem change
-  - Remote sensing & GIS
+  - Photosynthesis and gross primary productivity
+  - Biosphere–atmosphere interactions
+  - Climate and ecosystem modelling
+  - Earth observation and remote sensing
+  - Environmental and geospatial data science
+  - Land-use and food-system analysis
+  - Water resources and agricultural systems
+
 education:
   - degree: Master of Science (M2) in Climate, Land-Use and Ecosystem Services
     institution: AgroParisTech, Université Paris-Saclay
@@ -34,12 +52,11 @@ education:
     start: 2024-09-01
     end: 2025-10-31
     summary: |
-      Advanced training in climate science, land-use change, and ecosystem services.
-      Coursework and research focused on terrestrial biosphere modelling,
-      biosphere–atmosphere interactions, land-surface processes,
-      and improving photosynthesis and gross primary productivity (GPP)
-      representation using observational constraints such as chlorophyll fluorescence.
-      
+      Advanced training in climate science, land-use change, ecosystem services,
+      and terrestrial biosphere modelling. Coursework and research focused on
+      biosphere–atmosphere interactions, land-surface processes, and improving
+      photosynthesis and gross primary productivity representation using
+      observational constraints such as chlorophyll fluorescence.
 
   - degree: Master of Science in Environmental Science
     institution: Bangladesh Agricultural University
@@ -47,10 +64,9 @@ education:
     start: 2022-10-01
     end: 2024-04-30
     summary: |
-      Graduate-level training in environmental science with emphasis on climate change impacts,
+      Graduate-level training in environmental science with emphasis on climate change,
       ecosystem processes, land-use dynamics, and environmental monitoring.
-      Research experience included GIS and remote sensing applications
-      and analysis of agricultural land transformation.
+      Research experience included GIS, remote sensing, and agricultural land-use analysis.
 
   - degree: Bachelor of Science in Environmental Science
     institution: Noakhali Science and Technology University
@@ -59,68 +75,64 @@ education:
     end: 2022-07-31
     summary: |
       Undergraduate training in environmental science covering ecology,
-      environmental chemistry, climatology, and natural resource management.
-      Developed strong foundations in field-based environmental assessment,
-      data analysis, and introductory GIS techniques.
-      
-experience:
-  - role: Research Intern
-    org: Laboratory for Climate and Environmental Sciences - (LSCE-CEA-CNRS), MOSAIC Team
-    start: 2025-05-01
-    end: 2025-10-31
-    summary: |
-      Contributed to the implementation and evaluation of the Johnson & Berry (2021)
-      mechanistic photosynthesis model within the ORCHIDEE land-surface model.
-      Conducted literature synthesis and meta-analysis of PAM chlorophyll fluorescence datasets
-      to support fluorescence-constrained photosynthesis estimation.
-
-  - role: Research Assistant
-    org: Bangladesh Agricultural University
-    start: 2022-11-01
-    end: 2024-04-30
-    summary: |
-      Worked on FAO-funded research on agricultural land transformation.
-      Conducted land-use and land-cover analysis using Google Earth Engine and GIS tools,
-      and integrated field observations with remote-sensing data.
+      environmental chemistry, climatology, natural resource management,
+      environmental assessment, data analysis, and GIS.
 
 skills:
   - name: Programming & Data Analysis
     items:
-      - label: R
-        level: 4
       - label: Python
+        level: 4
+      - label: R
         level: 4
       - label: Fortran
         level: 3
-  - name: GIS & Remote Sensing
+
+  - name: GIS & Earth Observation
     items:
       - label: Google Earth Engine
         level: 4
       - label: QGIS / ArcGIS
+        level: 4
+      - label: Geospatial Data Processing
+        level: 4
+      - label: Remote Sensing
+        level: 4
+
+  - name: Environmental Modelling
+    items:
+      - label: Climate & Ecosystem Modelling
+        level: 4
+      - label: Terrestrial Biosphere Modelling
+        level: 4
+      - label: Land-Use Systems Analysis
         level: 4
 
 languages:
   - name: Bengali
     level: 5
     label: Native
+
   - name: English
     level: 4
     label: C1
+
   - name: French
     level: 1
     label: A1
+
 awards:
   - title: French Government Scholarship
     awarder: French Government / Université Paris-Saclay
     date: "2024-09-01"
-    summary: Awarded for Master’s studies in Climate, Land-Use and Ecosystem Services (CLUES) at AgroParisTech.
+    summary: Awarded for Master's studies in Climate, Land-Use and Ecosystem Services at AgroParisTech.
 
   - title: Eiffel Excellence Scholarship (Nomination)
     awarder: Université Paris-Saclay
     date: "2024-04-01"
-    summary: Nominated for the Eiffel Excellence Scholarship at Master’s level.
+    summary: Nominated for the Eiffel Excellence Scholarship at Master's level.
 
-  - title: National Science and Technology (NST) Fellowship
+  - title: National Science and Technology Fellowship
     awarder: Ministry of Science and Technology, Government of Bangladesh
     date: "2022-01-01"
     summary: Competitive national fellowship awarded for academic excellence.
@@ -128,4 +140,4 @@ awards:
   - title: Education Board Scholarships
     awarder: Government of Bangladesh
     date: "2015-01-01"
-    summary: Multiple merit-based scholarships awarded during secondary and higher secondary education.
+    summary: Merit-based scholarships awarded during secondary and higher secondary education.
