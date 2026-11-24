@@ -1,0 +1,36 @@
+<style>
+/* Responsive academic portfolio. Keep typography readable at every viewport. */
+section[id^="portfolio-content-"] {
+  padding-block: clamp(1.4rem, 3vw, 2.6rem) !important;
+}
+section[id^="portfolio-content-"] .container,
+section[id^="portfolio-content-"] .max-w-prose,
+section[id^="portfolio-content-"] .prose,
+section[id^="portfolio-content-"] [class*="max-w-"] {
+  max-width: min(100%, 68rem) !important;
+}
+section[id^="portfolio-content-"] .prose {
+  width: 100% !important;
+  margin-inline: auto !important;
+  font-size: clamp(1rem, 0.94rem + 0.22vw, 1.125rem) !important;
+  line-height: 1.65 !important;
+  overflow-wrap: anywhere;
+}
+section[id^="portfolio-content-"] .prose p { margin-block: .65em !important; }
+section[id^="portfolio-content-"] .prose ul { margin-block: .55em !important; padding-inline-start: 1.35em; }
+section[id^="portfolio-content-"] .prose li { margin-block: .35em !important; }
+section[id^="portfolio-content-"] .prose h3 { margin-block: 1.2em .35em !important; font-size: 1.2em; }
+section[id^="portfolio-content-"] .prose h3:first-child { margin-top: 0 !important; }
+section[id^="portfolio-content-"] .prose a { text-decoration-thickness: 1px; text-underline-offset: .18em; }
+section[id^="portfolio-content-"] .prose p + p { margin-top: .9em !important; }
+section[id^="portfolio-content-"] > div { width: 100%; }
+section[id^="portfolio-content-"] .section-heading { margin-bottom: 1.15rem !important; }
+@media (min-width: 768px) {
+  section[id^="portfolio-content-"] .prose { text-align: left; }
+}
+@media (max-width: 767px) {
+  section[id^="portfolio-content-"] { padding-inline: .5rem !important; }
+  section[id^="portfolio-content-"] .prose { font-size: 1rem !important; }
+}
+a[href^="https://github.com/mdjahidulhoque"], a.github-button { display: none !important; }
+</style>

@@ -3,18 +3,20 @@ title: 'Profile Summary'
 summary: 'Professional and academic profile of Md. Jahidul Hoque.'
 type: landing
 design:
-  spacing: '3rem'
+  spacing: '2rem'
 sections:
   - block: markdown
+    id: portfolio-content-1
     content:
       title: 'Professional Profile'
       text: |-
         Environmental data analyst and researcher based in Paris, France. My work combines climate and ecosystem modelling, Earth observation, geospatial analysis and integrated food, land and water systems. I currently work with the FABLE Consortium at UN SDSN.
         
-        [ResearchGate](https://www.researchgate.net/profile/Md-Hoque-158) | [LinkedIn](https://www.linkedin.com/in/mdjahidulhoque/) | [GitHub](https://github.com/mdjahidulhoque)
+        [ResearchGate](https://www.researchgate.net/profile/Md-Hoque-158) | [LinkedIn](https://www.linkedin.com/in/mdjahidulhoque/)
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-2
     content:
       title: 'Professional Experience'
       text: |-
@@ -27,6 +29,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-3
     content:
       title: 'Research Experience'
       text: |-
@@ -53,6 +56,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-4
     content:
       title: 'Education'
       text: |-
@@ -67,6 +71,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-5
     content:
       title: 'Technical Expertise'
       text: |-
@@ -80,17 +85,28 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-6
     content:
       title: 'Selected Research Outputs'
       text: |-
-        - Farukh, M. A., Rahman, M. Z., Salam, M. A., Haque, M. M., Sarker, M. A., Amin, M. G. M., **Hoque, M. J.**, & Hossain, M. S. (2026). Integrating land-use dynamics, water quality, and multi-criteria ecological suitability for fish sanctuary prioritization in three major river basins of Bangladesh. *Scientific Reports*. [DOI](https://doi.org/10.1038/s41598-026-72239-x)
-        - **Hoque, M. J.**, Hossain, M. S., Sejuti, S. I., & Farukh, M. A. (2026). Transforming the Floodplain: Agricultural Encroachment and Landscape Change in the Northwestern Ganges-Padma Basin. *Geo: Geography and Environment, 13, e70067*. [DOI](https://doi.org/10.1002/geo2.70067)
-        - Farukh, M. A., Brahma, P. P., Hossain, M. S., **Hoque, M. J.**, Sejuti, S. I., Shammy, U. S., & Arefin, K. S. (2026). Climatological assessment of pre-monsoon heatwave days in Bangladesh and their relationship to Indo-Pacific circulation anomalies. *Natural Hazards*. [DOI](https://doi.org/10.1007/s11069-025-07746-7)
+        **Integrating land-use dynamics, water quality, and multi-criteria ecological suitability for fish sanctuary prioritization in three major river basins of Bangladesh.**  
+        Farukh, M. A., Rahman, M. Z., Salam, M. A., Haque, M. M., Sarker, M. A., Amin, M. G. M., **Hoque, M. J.**, & Hossain, M. S. (2026).  
+        *Scientific Reports* · [Read article](https://doi.org/10.1038/s41598-026-72239-x)
+
+        **Transforming the Floodplain: Agricultural Encroachment and Landscape Change in the Northwestern Ganges-Padma Basin.**  
+        **Hoque, M. J.**, Hossain, M. S., Sejuti, S. I., & Farukh, M. A. (2026).  
+        *Geo: Geography and Environment, 13, e70067* · [Read article](https://doi.org/10.1002/geo2.70067)
+
+        **Climatological assessment of pre-monsoon heatwave days in Bangladesh and their relationship to Indo-Pacific circulation anomalies.**  
+        Farukh, M. A., Brahma, P. P., Hossain, M. S., **Hoque, M. J.**, Sejuti, S. I., Shammy, U. S., & Arefin, K. S. (2026).  
+        *Natural Hazards* · [Read article](https://doi.org/10.1007/s11069-025-07746-7)
+
         
         [Complete publication list](/publications/)
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-7
     content:
       title: 'Honours and Awards'
       text: |-
@@ -101,6 +117,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-8
     content:
       title: 'Languages'
       text: |-

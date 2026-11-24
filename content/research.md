@@ -3,9 +3,10 @@ title: 'Research'
 summary: 'Research themes and selected projects.'
 type: landing
 design:
-  spacing: '3rem'
+  spacing: '2rem'
 sections:
   - block: markdown
+    id: portfolio-content-1
     content:
       title: 'Research Focus'
       text: |-
@@ -13,6 +14,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-2
     content:
       title: 'Terrestrial Biosphere and Photosynthesis Modelling'
       text: |-
@@ -22,6 +24,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-3
     content:
       title: 'Integrated Food, Land and Water Systems'
       text: |-
@@ -31,6 +34,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-4
     content:
       title: 'Earth Observation and Environmental Change'
       text: |-
@@ -40,12 +44,13 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-5
     content:
       title: 'Research Outputs'
       text: |-
         [Explore publications, technical reports and conference contributions](/publications/)
         
-        [ResearchGate](https://www.researchgate.net/profile/Md-Hoque-158) | [LinkedIn](https://www.linkedin.com/in/mdjahidulhoque/) | [GitHub](https://github.com/mdjahidulhoque)
+        [ResearchGate](https://www.researchgate.net/profile/Md-Hoque-158) | [LinkedIn](https://www.linkedin.com/in/mdjahidulhoque/)
     design:
       columns: '1'
 ---

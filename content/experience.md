@@ -3,9 +3,10 @@ title: 'Experience'
 summary: 'Professional and research experience.'
 type: landing
 design:
-  spacing: '3rem'
+  spacing: '2rem'
 sections:
   - block: markdown
+    id: portfolio-content-1
     content:
       title: 'Professional Experience'
       text: |-
@@ -22,6 +23,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-2
     content:
       title: 'Research Experience'
       text: |-
@@ -50,6 +52,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-3
     content:
       title: 'Technical Expertise'
       text: |-
@@ -63,6 +66,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-content-4
     content:
       title: 'Professional Training'
       text: |-
