@@ -13,3 +13,5 @@
     <p class="pf-hero-links"><a href="mailto:mdjahidul.hoque@unsdsn.org">Email</a><a href="https://www.researchgate.net/profile/Md-Hoque-158">ResearchGate</a><a href="https://www.linkedin.com/in/mdjahidulhoque/">LinkedIn</a></p>
   </div>
 </div>
+
+{{ if .Page.IsHome }}{{ partial "portfolio-summary.html" . }}{{ end }}
