@@ -1,12 +1,15 @@
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3C/svg%3E">
+{{ with resources.Get "media/authors/me.jpeg" }}
+{{ $icon := .Fill "64x64 Center png" }}
+<link rel="icon" type="image/png" sizes="64x64" href="{{ $icon.RelPermalink }}">
 <script>
 document.addEventListener('DOMContentLoaded',function(){
   document.querySelectorAll('link[rel~="icon"],link[rel="apple-touch-icon"],link[rel="mask-icon"]').forEach(function(link){link.remove();});
   var icon=document.createElement('link');
-  icon.rel='icon';icon.type='image/svg+xml';icon.href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3C/svg%3E";
+  icon.rel='icon';icon.type='image/png';icon.sizes='64x64';icon.href={{ $icon.RelPermalink | jsonify | safeJS }};
   document.head.appendChild(icon);
 });
 </script>
+{{ end }}
 <style>
 :root { --pf-accent:#14675c; --pf-ink:#172b38; --pf-muted:#536575; --pf-line:#dce5e8; --pf-card:#fff; --pf-soft:#f4f8f8; }
 .dark { --pf-accent:#7dd3bf; --pf-ink:#e8f1f4; --pf-muted:#b1c0cc; --pf-line:#344652; --pf-card:#192631; --pf-soft:#202f3a; }
