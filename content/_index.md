@@ -10,9 +10,6 @@ sections:
     content:
       username: me
       text: ''
-      button:
-        text: View Profile Summary
-        url: /profile-summary/
       headings:
         about: ''
         education: ''
