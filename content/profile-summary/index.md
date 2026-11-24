@@ -2,6 +2,8 @@
 title: 'Profile Summary'
 summary: 'Professional and academic profile of Md. Jahidul Hoque.'
 type: landing
+url: /profile-summary/
+slug: profile-summary
 design:
   spacing: '2rem'
 sections:
