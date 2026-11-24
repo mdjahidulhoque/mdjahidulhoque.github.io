@@ -50,6 +50,33 @@ section[id^="portfolio-"]:not(#portfolio-hero) .pf-card {overflow-wrap:anywhere}
 .pf-card a {overflow-wrap:anywhere}
 .pf-list .pf-card {margin:0!important}
 @media(min-width:900px){.pf-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#portfolio-home-1 .pf-grid,#portfolio-profile-summary-4 .pf-grid,#portfolio-profile-summary-8 .pf-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* Profile and research pages use a generous, viewport-aware reading area. */
+section[id^="portfolio-profile-summary-"],section[id^="portfolio-research-"] {
+  padding-block:clamp(1.5rem,3vw,2.8rem)!important;
+  padding-inline:clamp(1rem,3vw,2.5rem)!important;
+}
+section[id^="portfolio-profile-summary-"] .prose,section[id^="portfolio-research-"] .prose {
+  max-width:72rem!important;
+  font-size:clamp(1rem,.96rem + .24vw,1.125rem)!important;
+  line-height:1.78!important;
+}
+section[id^="portfolio-profile-summary-"] .pf-card,section[id^="portfolio-research-"] .pf-card {
+  padding:clamp(1.15rem,2.4vw,2rem);
+  overflow-wrap:break-word!important;
+}
+section[id^="portfolio-profile-summary-"] .pf-card p,section[id^="portfolio-research-"] .pf-card p {margin-block:.85em!important}
+section[id^="portfolio-profile-summary-"] .pf-card li,section[id^="portfolio-research-"] .pf-card li {margin-block:.65em!important}
+section[id^="portfolio-profile-summary-"] .pf-grid,section[id^="portfolio-research-"] .pf-grid {gap:1.25rem}
+section[id^="portfolio-profile-summary-"] .pf-list,section[id^="portfolio-research-"] .pf-list {gap:1.25rem}
+section[id^="portfolio-profile-summary-"] .pf-card h3,section[id^="portfolio-research-"] .pf-card h3 {margin-block:1.2rem .65rem!important}
+@media(min-width:900px){
+ #portfolio-profile-summary-4 .pf-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ #portfolio-profile-summary-5 .pf-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:899px){
+ #portfolio-profile-summary-4 .pf-grid,#portfolio-profile-summary-5 .pf-grid{grid-template-columns:1fr}
+}
 </style>
 <script>
 document.addEventListener('DOMContentLoaded',function(){
@@ -94,7 +121,9 @@ document.addEventListener('DOMContentLoaded',function(){
     else if(id==='portfolio-publications-4'){group(s,true);}
     else if(id==='portfolio-experience-1'||id==='portfolio-experience-2'||id==='portfolio-profile-summary-2'||id==='portfolio-profile-summary-3'){
       group(s,true);
-    }else if(id==='portfolio-profile-summary-7'||id==='portfolio-experience-4'||id.startsWith('portfolio-research-')||id==='portfolio-profile-summary-1'||id==='portfolio-publications-6'||id==='portfolio-home-3'){
+    }else if(id==='portfolio-profile-summary-7'){cards(s,'pf-grid','p');}
+    else if(/^portfolio-research-[234]$/.test(id)){group(s,true);}
+    else if(id==='portfolio-experience-4'||id.startsWith('portfolio-research-')||id==='portfolio-profile-summary-1'||id==='portfolio-publications-6'||id==='portfolio-home-3'){
       group(s,false);
     }
   });

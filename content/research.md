@@ -20,9 +20,18 @@ sections:
       text: |-
         **LSCE, MOSAIC Team | ORCHIDEE**
         
-        **Research scope:** Mechanistic light-dependent photosynthesis, solar-induced chlorophyll fluorescence, gross primary productivity and model-data evaluation across seven European sites.
+        ### Scientific focus
         
-        **Methods and tools:** R, Fortran, sensitivity analysis and quantitative synthesis of PAM fluorescence data.
+        Mechanistic light-dependent photosynthesis, solar-induced chlorophyll fluorescence (SIF) and gross primary productivity (GPP).
+        
+        ### Research contributions
+        
+        - Implemented and evaluated the Johnson & Berry photosynthesis formulation in ORCHIDEE.
+        - Conducted model-data evaluation and parameter sensitivity analysis across seven European sites.
+        
+        ### Methods and tools
+        
+        R, Fortran, eddy-covariance observations and quantitative synthesis of PAM fluorescence data.
     design:
       columns: '1'
   - block: markdown
@@ -32,13 +41,21 @@ sections:
       text: |-
         **FABLE Consortium | UN SDSN**
         
-        **Agricultural water modelling:** Development of crop-specific irrigation water requirement datasets under alternative climate scenarios, incorporating irrigated areas and irrigation technology efficiencies. Contributions to the representation of agricultural water withdrawals, water availability and environmental-flow constraints within FABLE-C.
+        ### Agricultural water modelling
         
-        **Nitrogen and greenhouse gas modelling:** Preparation and harmonisation of nitrogen-use data and associated N₂O emissions indicators to support the refinement of agricultural nutrient and emissions modelling.
+        Development of crop-specific irrigation water requirement datasets under alternative climate scenarios, incorporating irrigated areas and irrigation technology efficiencies. Contributions to the representation of agricultural water withdrawals, water availability and environmental-flow constraints within FABLE-C.
         
-        **Integrated systems analysis:** Agricultural production and trade data, land-use transitions, scenario adjustment and fair-share emissions analysis. Contributions include FABLE-C, CHOICE and SOLVE activities.
+        ### Nitrogen and greenhouse gas modelling
         
-        **Methods and tools:** Python, R, Google Earth Engine and reproducible geospatial workflows.
+        Preparation and harmonisation of nitrogen-use data and associated N₂O emissions indicators to support the refinement of agricultural nutrient and emissions modelling.
+        
+        ### Integrated systems analysis
+        
+        Agricultural production and trade data, land-use transitions, scenario adjustment and fair-share emissions analysis. Contributions include FABLE-C, CHOICE and SOLVE activities.
+        
+        ### Methods and tools
+        
+        Python, R, Google Earth Engine and reproducible geospatial workflows.
     design:
       columns: '1'
   - block: markdown
@@ -48,9 +65,13 @@ sections:
       text: |-
         **Bangladesh Agricultural University and NSTU**
         
-        **Research scope:** Agricultural land transformation in the Ganges-Padma floodplain, wetland land-use dynamics, surface temperature and environmental monitoring.
+        ### Research scope
         
-        **Methods and tools:** satellite observations, GIS, farmer surveys, field observations and statistical analysis.
+        Agricultural land transformation in the Ganges-Padma floodplain, wetland land-use dynamics, surface temperature and environmental monitoring.
+        
+        ### Methods and tools
+        
+        satellite observations, GIS, farmer surveys, field observations and statistical analysis.
     design:
       columns: '1'
   - block: markdown

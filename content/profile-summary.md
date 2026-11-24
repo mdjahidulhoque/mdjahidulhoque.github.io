@@ -10,7 +10,13 @@ sections:
     content:
       title: 'Professional Profile'
       text: |-
-        Environmental data analyst and researcher based in Paris, France. My work combines climate and ecosystem modelling, Earth observation and integrated agricultural systems modelling, with a focus on irrigation water requirements, water resources and nitrogen-related environmental indicators. I currently work with the FABLE Consortium at UN SDSN.
+        ### Md. Jahidul Hoque
+        
+        **Environmental Data Analyst and Researcher**
+        
+        FABLE Consortium, UN SDSN | Paris, France
+        
+        My work integrates environmental data science, agricultural systems modelling and Earth observation. My current focus is irrigation water requirements, water resources and nitrogen-related environmental indicators. My academic research includes terrestrial biosphere modelling, photosynthesis and ecosystem carbon fluxes.
         
         [ResearchGate](https://www.researchgate.net/profile/Md-Hoque-158) | [LinkedIn](https://www.linkedin.com/in/mdjahidulhoque/)
     design:
@@ -62,13 +68,16 @@ sections:
       title: 'Education'
       text: |-
         **MSc (M2) in Climate, Land-Use and Ecosystem Services**  
-        AgroParisTech, Université Paris-Saclay, France | September 2024 to October 2025
+        AgroParisTech, Université Paris-Saclay, France  
+        September 2024 to October 2025
         
         **MSc in Environmental Science**  
-        Bangladesh Agricultural University | October 2022 to March 2024
+        Bangladesh Agricultural University  
+        October 2022 to March 2024
         
         **BSc in Environmental Science**  
-        Noakhali Science and Technology University | January 2017 to July 2022
+        Noakhali Science and Technology University  
+        January 2017 to July 2022
     design:
       columns: '1'
   - block: markdown
@@ -115,10 +124,14 @@ sections:
     content:
       title: 'Honours and Awards'
       text: |-
-        - French Government Scholarship (BGF), for Master's studies at AgroParisTech and Université Paris-Saclay.
-        - National Science and Technology Fellowship, Bangladesh.
-        - Eiffel Excellence Scholarship nomination, Université Paris-Saclay (Master's level).
-        - Education Board Scholarships, Bangladesh.
+        French Government Scholarship (BGF), for Master's studies at AgroParisTech and Université Paris-Saclay.
+
+        National Science and Technology Fellowship, Bangladesh.
+
+        Eiffel Excellence Scholarship nomination, Université Paris-Saclay (Master's level).
+
+        Education Board Scholarships, Bangladesh.
+
     design:
       columns: '1'
   - block: markdown
