@@ -1,36 +1,82 @@
 <style>
-/* Responsive academic portfolio. Keep typography readable at every viewport. */
-section[id^="portfolio-content-"] {
-  padding-block: clamp(1.4rem, 3vw, 2.6rem) !important;
-}
-section[id^="portfolio-content-"] .container,
-section[id^="portfolio-content-"] .max-w-prose,
-section[id^="portfolio-content-"] .prose,
-section[id^="portfolio-content-"] [class*="max-w-"] {
-  max-width: min(100%, 68rem) !important;
-}
-section[id^="portfolio-content-"] .prose {
-  width: 100% !important;
-  margin-inline: auto !important;
-  font-size: clamp(1rem, 0.94rem + 0.22vw, 1.125rem) !important;
-  line-height: 1.65 !important;
-  overflow-wrap: anywhere;
-}
-section[id^="portfolio-content-"] .prose p { margin-block: .65em !important; }
-section[id^="portfolio-content-"] .prose ul { margin-block: .55em !important; padding-inline-start: 1.35em; }
-section[id^="portfolio-content-"] .prose li { margin-block: .35em !important; }
-section[id^="portfolio-content-"] .prose h3 { margin-block: 1.2em .35em !important; font-size: 1.2em; }
-section[id^="portfolio-content-"] .prose h3:first-child { margin-top: 0 !important; }
-section[id^="portfolio-content-"] .prose a { text-decoration-thickness: 1px; text-underline-offset: .18em; }
-section[id^="portfolio-content-"] .prose p + p { margin-top: .9em !important; }
-section[id^="portfolio-content-"] > div { width: 100%; }
-section[id^="portfolio-content-"] .section-heading { margin-bottom: 1.15rem !important; }
-@media (min-width: 768px) {
-  section[id^="portfolio-content-"] .prose { text-align: left; }
-}
-@media (max-width: 767px) {
-  section[id^="portfolio-content-"] { padding-inline: .5rem !important; }
-  section[id^="portfolio-content-"] .prose { font-size: 1rem !important; }
-}
-a[href^="https://github.com/mdjahidulhoque"], a.github-button { display: none !important; }
+:root { --pf-accent:#14675c; --pf-ink:#172b38; --pf-muted:#536575; --pf-line:#dce5e8; --pf-card:#fff; --pf-soft:#f4f8f8; }
+.dark { --pf-accent:#7dd3bf; --pf-ink:#e8f1f4; --pf-muted:#b1c0cc; --pf-line:#344652; --pf-card:#192631; --pf-soft:#202f3a; }
+html {scroll-behavior:smooth;scroll-padding-top:5rem}
+[id^="portfolio-"] {scroll-margin-top:5rem}
+section[id^="portfolio-"]:not(#portfolio-hero) {padding-block:clamp(1.3rem,2.8vw,2.4rem)!important;padding-inline:clamp(1rem,4vw,3rem)!important}
+section[id^="portfolio-"]:not(#portfolio-hero) > div,
+section[id^="portfolio-"]:not(#portfolio-hero) .container,
+section[id^="portfolio-"]:not(#portfolio-hero) [class*="max-w-"] {max-width:72rem!important;width:100%!important;margin-inline:auto!important;min-width:0}
+section[id^="portfolio-"] .prose {max-width:68rem!important;width:100%!important;line-height:1.7!important;font-size:clamp(1rem,.95rem + .18vw,1.1rem)!important;text-align:left;overflow-wrap:break-word}
+section[id^="portfolio-"] .prose p {margin-block:.65em!important}
+section[id^="portfolio-"] .prose li {margin-block:.38em!important}
+section[id^="portfolio-"] .prose ul {padding-inline-start:1.4em;margin-block:.6em!important}
+section[id^="portfolio-"] .prose a {color:var(--pf-accent);text-underline-offset:.2em;text-decoration-thickness:1px}
+section[id^="portfolio-"] .prose a:focus-visible, .pf-controls button:focus-visible {outline:2px solid var(--pf-accent);outline-offset:4px}
+section[id^="portfolio-"] .section-heading {margin-bottom:1.3rem!important}
+section[id^="portfolio-"] .section-heading h2,section[id^="portfolio-"] h2 {font-size:clamp(1.35rem,1.12rem + .7vw,1.9rem)!important;letter-spacing:-.025em;line-height:1.25;color:var(--pf-ink)}
+section[id^="portfolio-"] .prose h3 {font-size:1.22em!important;line-height:1.35;margin:1.5em 0 .35em!important;color:var(--pf-accent)}
+.pf-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:1rem;align-items:stretch}
+.pf-card {border:1px solid var(--pf-line);border-radius:12px;padding:1.1rem 1.3rem;background:var(--pf-card);min-width:0;box-shadow:0 3px 12px #12303a08}
+.pf-card p:first-child,.pf-card h3:first-child {margin-top:0!important}
+.pf-card p:last-child,.pf-card ul:last-child {margin-bottom:0!important}
+.pf-card strong:first-child {color:var(--pf-ink)}
+.pf-list {display:grid;gap:.8rem}
+.pf-list .pf-card {border-inline-start:3px solid var(--pf-accent)}
+.pf-card[hidden] {display:none!important}
+.pf-controls {display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;margin-bottom:1rem}
+.pf-controls input {flex:1 1 16rem;min-width:0;border:1px solid var(--pf-line);border-radius:8px;background:var(--pf-card);color:var(--pf-ink);padding:.6rem .8rem;font:inherit}
+.pf-count {font-size:.85rem;color:var(--pf-muted)}
+.pf-jump {display:flex;flex-wrap:wrap;gap:.5rem 1rem;margin:0 auto 1rem;max-width:68rem;padding:1rem;border:1px solid var(--pf-line);border-radius:10px;background:var(--pf-soft);font-size:.9rem}
+.pf-jump a {color:var(--pf-accent);text-decoration:none}
+.pf-jump a:hover {text-decoration:underline}
+.pf-jump strong {width:100%;color:var(--pf-ink)}
+.pf-card p {text-wrap:pretty}
+#portfolio-home-1 .pf-card {border-top:3px solid var(--pf-accent)}
+#portfolio-home-3 .prose {background:var(--pf-soft);border-radius:12px;padding:1.3rem}
+a[href^="https://github.com/mdjahidulhoque"],a.github-button {display:none!important}
+@media(max-width:640px){section[id^="portfolio-"] .prose {font-size:1rem!important} .pf-card{padding:1rem} .pf-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{.pf-controls,.pf-jump,header,footer{display:none!important}.pf-card{break-inside:avoid;box-shadow:none}section[id^="portfolio-"]{padding-block:.5rem!important}}
 </style>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  const sections=Array.from(document.querySelectorAll('section[id^="portfolio-"]')).filter(s=>s.id!=='portfolio-hero');
+  const prose=s=>s.querySelector('.prose');
+  function cards(s,mode,selector){
+    const p=prose(s);if(!p)return;
+    const nodes=Array.from(p.children).filter(n=>n.matches(selector||'p'));
+    if(!nodes.length)return;
+    const wrap=document.createElement('div');wrap.className=mode;
+    nodes[0].before(wrap);
+    nodes.forEach(n=>{const card=document.createElement('article');card.className='pf-card';wrap.append(card);card.append(n);});
+    return wrap;
+  }
+  sections.forEach(s=>{
+    const id=s.id,p=prose(s);if(!p)return;
+    if(id==='portfolio-home-1'||id==='portfolio-profile-summary-5'||id==='portfolio-experience-3'){
+      cards(s,'pf-grid','p:has(> strong)');
+    }else if(id==='portfolio-home-2'||id==='portfolio-publications-1'||id==='portfolio-profile-summary-6'){
+      const w=cards(s,'pf-list','p:has(> strong)');if(w&&id==='portfolio-publications-1'){
+        const controls=document.createElement('div');controls.className='pf-controls';
+        const input=document.createElement('input');input.type='search';input.placeholder='Search journal articles';input.setAttribute('aria-label','Search journal articles');
+        const count=document.createElement('span');count.className='pf-count';count.setAttribute('aria-live','polite');
+        controls.append(input,count);w.before(controls);
+        const update=()=>{let n=0;Array.from(w.children).forEach(c=>{c.hidden=!c.textContent.toLowerCase().includes(input.value.trim().toLowerCase());if(!c.hidden)n++});count.textContent=n+' article'+(n===1?'':'s')};
+        input.addEventListener('input',update);update();
+      }
+    }else if(id==='portfolio-profile-summary-4'){cards(s,'pf-grid','p');}
+    else if(id==='portfolio-publications-5'){cards(s,'pf-list','p');}
+    else if(id==='portfolio-experience-1'||id==='portfolio-experience-2'||id==='portfolio-profile-summary-2'||id==='portfolio-profile-summary-3'){
+      let card=null;const children=Array.from(p.children);
+      children.forEach(n=>{if(n.tagName==='H3'){card=document.createElement('article');card.className='pf-card';card.style.marginBottom='1rem';n.before(card);}if(card)card.append(n);});
+    }
+  });
+  if(sections.length>3&&location.pathname!=='/'){
+    const nav=document.createElement('nav');nav.className='pf-jump';nav.setAttribute('aria-label','On this page');
+    const label=document.createElement('strong');label.textContent='On this page';nav.append(label);
+    sections.forEach(s=>{const h=s.querySelector('h2')||s.querySelector('.section-heading');if(!h)return;const a=document.createElement('a');a.href='#'+s.id;a.textContent=h.textContent.trim();nav.append(a);});
+    if(nav.children.length>1){const p=prose(sections[0]);if(p)p.before(nav);}
+  }
+});
+</script>

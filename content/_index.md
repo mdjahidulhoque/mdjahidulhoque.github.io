@@ -6,6 +6,7 @@ design:
   spacing: '2rem'
 sections:
   - block: resume-biography-3
+    id: portfolio-hero
     content:
       username: me
       text: ''
@@ -26,7 +27,7 @@ sections:
         size: medium
         shape: circle
   - block: markdown
-    id: portfolio-content-1
+    id: portfolio-home-1
     content:
       title: Research Focus
       text: |-
@@ -40,7 +41,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-2
+    id: portfolio-home-2
     content:
       title: Selected Publications
       text: |-
@@ -58,7 +59,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-3
+    id: portfolio-home-3
     content:
       title: Research and Collaboration
       text: |-

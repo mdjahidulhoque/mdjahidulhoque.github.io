@@ -6,7 +6,7 @@ design:
   spacing: '2rem'
 sections:
   - block: markdown
-    id: portfolio-content-1
+    id: portfolio-research-1
     content:
       title: 'Research Focus'
       text: |-
@@ -14,7 +14,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-2
+    id: portfolio-research-2
     content:
       title: 'Terrestrial Biosphere and Photosynthesis Modelling'
       text: |-
@@ -24,7 +24,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-3
+    id: portfolio-research-3
     content:
       title: 'Integrated Food, Land and Water Systems'
       text: |-
@@ -34,7 +34,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-4
+    id: portfolio-research-4
     content:
       title: 'Earth Observation and Environmental Change'
       text: |-
@@ -44,7 +44,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-5
+    id: portfolio-research-5
     content:
       title: 'Research Outputs'
       text: |-

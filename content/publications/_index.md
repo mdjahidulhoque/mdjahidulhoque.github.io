@@ -6,7 +6,7 @@ design:
   spacing: '2rem'
 sections:
   - block: markdown
-    id: portfolio-content-1
+    id: portfolio-publications-1
     content:
       title: 'Peer-Reviewed Journal Articles'
       text: |-
@@ -27,7 +27,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-2
+    id: portfolio-publications-2
     content:
       title: 'Technical Notes and Reports'
       text: |-
@@ -35,7 +35,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-3
+    id: portfolio-publications-3
     content:
       title: 'Manuscripts Under Review'
       text: |-
@@ -43,7 +43,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-4
+    id: portfolio-publications-4
     content:
       title: 'Master’s Thesis'
       text: |-
@@ -51,7 +51,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-5
+    id: portfolio-publications-5
     content:
       title: 'Conference Contributions'
       text: |-
@@ -65,7 +65,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-6
+    id: portfolio-publications-6
     content:
       title: 'Research Profiles'
       text: |-

@@ -6,7 +6,7 @@ design:
   spacing: '2rem'
 sections:
   - block: markdown
-    id: portfolio-content-1
+    id: portfolio-profile-summary-1
     content:
       title: 'Professional Profile'
       text: |-
@@ -16,7 +16,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-2
+    id: portfolio-profile-summary-2
     content:
       title: 'Professional Experience'
       text: |-
@@ -29,7 +29,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-3
+    id: portfolio-profile-summary-3
     content:
       title: 'Research Experience'
       text: |-
@@ -56,7 +56,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-4
+    id: portfolio-profile-summary-4
     content:
       title: 'Education'
       text: |-
@@ -71,7 +71,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-5
+    id: portfolio-profile-summary-5
     content:
       title: 'Technical Expertise'
       text: |-
@@ -85,7 +85,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-6
+    id: portfolio-profile-summary-6
     content:
       title: 'Selected Research Outputs'
       text: |-
@@ -106,7 +106,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-7
+    id: portfolio-profile-summary-7
     content:
       title: 'Honours and Awards'
       text: |-
@@ -117,7 +117,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-8
+    id: portfolio-profile-summary-8
     content:
       title: 'Languages'
       text: |-

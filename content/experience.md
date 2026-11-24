@@ -6,7 +6,7 @@ design:
   spacing: '2rem'
 sections:
   - block: markdown
-    id: portfolio-content-1
+    id: portfolio-experience-1
     content:
       title: 'Professional Experience'
       text: |-
@@ -23,7 +23,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-2
+    id: portfolio-experience-2
     content:
       title: 'Research Experience'
       text: |-
@@ -52,7 +52,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-3
+    id: portfolio-experience-3
     content:
       title: 'Technical Expertise'
       text: |-
@@ -66,7 +66,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    id: portfolio-content-4
+    id: portfolio-experience-4
     content:
       title: 'Professional Training'
       text: |-
