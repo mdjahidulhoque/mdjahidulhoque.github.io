@@ -10,7 +10,7 @@ sections:
     content:
       title: 'Professional Profile'
       text: |-
-        Environmental data analyst and researcher based in Paris, France. My work combines climate and ecosystem modelling, Earth observation, geospatial analysis and integrated food, land and water systems. I currently work with the FABLE Consortium at UN SDSN.
+        Environmental data analyst and researcher based in Paris, France. My work combines climate and ecosystem modelling, Earth observation and integrated agricultural systems modelling, with a focus on irrigation water requirements, water resources and nitrogen-related environmental indicators. I currently work with the FABLE Consortium at UN SDSN.
         
         [ResearchGate](https://www.researchgate.net/profile/Md-Hoque-158) | [LinkedIn](https://www.linkedin.com/in/mdjahidulhoque/)
     design:
@@ -24,8 +24,9 @@ sections:
         **FABLE Consortium, UN Sustainable Development Solutions Network (UN SDSN)**  
         Paris, France | June 2026 to present
         
-        - Develop and harmonise agricultural water datasets covering 56 products across 179 countries, including irrigated areas, crop-specific irrigation requirements and irrigation technology efficiencies.
-        - Build reproducible Python workflows for agricultural production, food balances, bilateral trade and land-use data, with harmonisation, validation and quality-control checks.
+        - Develop model-ready global agricultural datasets and contribute to water and nitrogen modelling within the FABLE Calculator.
+        - Quantify crop-specific irrigation water requirements across 56 agricultural products and 179 countries under alternative climate scenarios, accounting for irrigation technology efficiencies.
+        - Support nitrogen-use and N₂O emissions data preparation, integrated scenario modelling, geospatial analysis and reproducible data workflows.
     design:
       columns: '1'
   - block: markdown

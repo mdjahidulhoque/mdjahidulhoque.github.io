@@ -38,7 +38,7 @@ sections:
         Land-cover dynamics, climate extremes and spatial environmental analysis.
 
         **Integrated food, land and water systems**  
-        Agricultural sustainability, irrigation, trade and climate impacts.
+        Agricultural water and nitrogen modelling, crop-specific irrigation requirements, land-use transitions, greenhouse gas indicators and integrated food-system scenarios.
 
         [Explore research and projects](/research/)
     design:

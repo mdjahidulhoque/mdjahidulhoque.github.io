@@ -32,7 +32,11 @@ sections:
       text: |-
         **FABLE Consortium | UN SDSN**
         
-        **Research scope:** Global agricultural and irrigation datasets, land-use transitions, trade adjustment, environmental indicators and fair-share emissions analysis. Contributions include FABLE-C, CHOICE and SOLVE activities.
+        **Agricultural water modelling:** Development of crop-specific irrigation water requirement datasets under alternative climate scenarios, incorporating irrigated areas and irrigation technology efficiencies. Contributions to the representation of agricultural water withdrawals, water availability and environmental-flow constraints within FABLE-C.
+        
+        **Nitrogen and greenhouse gas modelling:** Preparation and harmonisation of nitrogen-use data and associated N₂O emissions indicators to support the refinement of agricultural nutrient and emissions modelling.
+        
+        **Integrated systems analysis:** Agricultural production and trade data, land-use transitions, scenario adjustment and fair-share emissions analysis. Contributions include FABLE-C, CHOICE and SOLVE activities.
         
         **Methods and tools:** Python, R, Google Earth Engine and reproducible geospatial workflows.
     design:

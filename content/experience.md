@@ -14,12 +14,12 @@ sections:
         **FABLE Consortium, UN Sustainable Development Solutions Network (UN SDSN)**  
         Paris, France | June 2026 to present
         
-        - Develop and harmonise agricultural water datasets covering 56 products across 179 countries, including irrigated areas, crop-specific irrigation requirements and irrigation technology efficiencies.
-        - Build reproducible Python workflows for agricultural production, food balances, bilateral trade and land-use data, with harmonisation, validation and quality-control checks.
-        - Analyse spatial land-use transitions and associated greenhouse gas indicators using FABLE Downscaling within the CHOICE project; contribute to technical documentation and dissemination.
-        - Develop FABLE-C trade-adjustment workflows and integrate fair-share calculations into a web application; support climate-impact and nutrient-related data reviews.
-        - Use Google Earth Engine to analyse climate extremes and land-cover datasets.
-        - Support SOLVE consortium coordination, work-package activities, milestones, deliverables and communication with international partners.
+        - **Agricultural datasets and model inputs:** Develop and harmonise model-ready agricultural and environmental datasets for the FABLE Calculator, integrating crop classifications, spatial scales and climate scenario inputs.
+        - **Irrigation and water resources modelling:** Develop crop-specific irrigation water requirement datasets for 56 agricultural products across 179 countries under alternative climate scenarios. Integrate irrigated area, irrigation technology and efficiency parameters to estimate gross irrigation water requirements and support the refinement of agricultural water-use indicators, water availability and environmental-flow constraints.
+        - **Nitrogen and greenhouse gas modelling:** Contribute to the refinement of nitrogen-related modelling components through the preparation, harmonisation and evaluation of agricultural nitrogen-use data and associated nitrous oxide (N₂O) emissions indicators.
+        - **Data integration and quality assurance:** Develop reproducible Python and R workflows for spatial aggregation, harmonisation, validation and reconciliation of agricultural production, food balances, bilateral trade and land-use datasets.
+        - **Spatial environmental analysis:** Analyse land-use transitions and associated greenhouse gas indicators using FABLE Downscaling for the CHOICE project. Apply Google Earth Engine to climate extremes and land-cover datasets.
+        - **Integrated scenario modelling and research collaboration:** Develop Scenathon trade-adjustment workflows and integrate fair-share emissions calculations into a web application. Support SOLVE consortium coordination, deliverable tracking and international research collaboration.
     design:
       columns: '1'
   - block: markdown
