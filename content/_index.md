@@ -76,7 +76,7 @@ sections:
       text: |-
         I welcome interdisciplinary collaborations involving ecosystem modelling, climate impacts, Earth observation and sustainable agricultural systems.
 
-        [ResearchGate](https://www.researchgate.net/profile/Md-Hoque-158) | [LinkedIn](https://www.linkedin.com/in/mdjahidulhoque/)
+        [Email](mailto:mdjahidul.hoque@unsdsn.org) | [ResearchGate](https://www.researchgate.net/profile/Md-Hoque-158) | [LinkedIn](https://www.linkedin.com/in/mdjahidulhoque/)
     design:
       columns: '1'
 ---

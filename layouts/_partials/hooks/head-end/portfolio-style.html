@@ -131,9 +131,19 @@ section[id^="portfolio-research-"] .pf-card h3+p{color:inherit}
 section[id^="portfolio-research-"] .pf-card ul{margin-block:.3rem .65rem!important}
 section[id^="portfolio-research-"] .pf-card li{margin-block:.25rem!important;line-height:1.6!important}
 section[id^="portfolio-research-"] .pf-card > :last-child{margin-bottom:0!important}
+/* Replace the default visible footer with a minimal portfolio footer. */
+footer:not(.pf-personal-footer) {display:none!important}
+.pf-personal-footer {border-top:1px solid var(--pf-line);margin:2rem auto 0;padding:1.15rem;text-align:center;font-size:.85rem;line-height:1.6;color:var(--pf-muted)}
+.pf-personal-footer a{color:var(--pf-accent);text-underline-offset:.18em}
 </style>
 <script>
 document.addEventListener('DOMContentLoaded',function(){
+  if(!document.querySelector('.pf-personal-footer')){
+    const footer=document.createElement('footer');footer.className='pf-personal-footer';
+    const contact=document.createElement('a');contact.href='mailto:mdjahidul.hoque@unsdsn.org';contact.textContent='Email';
+    footer.append(document.createTextNode('© '+new Date().getFullYear()+' Md. Jahidul Hoque | '),contact);
+    document.body.append(footer);
+  }
   const sections=Array.from(document.querySelectorAll('section[id^="portfolio-"]')).filter(s=>s.id!=='portfolio-hero');
   const prose=s=>s.querySelector('.prose');
   function cards(s,mode,selector){
