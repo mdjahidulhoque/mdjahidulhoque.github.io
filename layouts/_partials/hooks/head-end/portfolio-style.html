@@ -144,6 +144,16 @@ section[id^="portfolio-research-"] .pf-card > :last-child{margin-bottom:0!import
 footer:not(.pf-personal-footer) {display:none!important}
 .pf-personal-footer {border-top:1px solid var(--pf-line);margin:2rem auto 0;padding:1.15rem;text-align:center;font-size:.85rem;line-height:1.6;color:var(--pf-muted)}
 .pf-personal-footer a{color:var(--pf-accent);text-underline-offset:.18em}
+
+.pf-edu-list{display:grid;gap:.9rem}
+.pf-edu-row{display:flex;align-items:center;justify-content:space-between;gap:1.25rem;border:1px solid var(--pf-line);border-inline-start:3px solid var(--pf-accent);border-radius:10px;background:var(--pf-card);padding:1.1rem 1.4rem}
+.pf-edu-info{flex:1;min-width:0}
+#portfolio-education .pf-edu-info h3{font-size:clamp(1rem,1.4vw,1.18rem)!important;line-height:1.4;margin:0 0 .35rem!important;color:var(--pf-ink)}
+#portfolio-education .pf-edu-info p{margin:.15rem 0!important;line-height:1.5}
+.pf-edu-date{color:var(--pf-muted);font-size:.9rem}
+.pf-edu-logos{display:flex;align-items:center;justify-content:flex-end;gap:.75rem;flex-shrink:0}
+#portfolio-education .pf-edu-logos img{width:auto;max-width:112px;height:64px;object-fit:contain;margin:0!important;padding:4px;background:#fff;border-radius:4px}
+@media(max-width:600px){.pf-edu-row{flex-wrap:wrap;padding:1rem}.pf-edu-info{flex-basis:100%}.pf-edu-logos{margin-left:auto}#portfolio-education .pf-edu-logos img{height:48px;max-width:90px}}
 </style>
 <script>
 document.addEventListener('DOMContentLoaded',function(){
@@ -203,7 +213,7 @@ document.addEventListener('DOMContentLoaded',function(){
       }
     }else if(id==='portfolio-profile-summary-4'||id==='portfolio-profile-summary-8'){cards(s,'pf-grid','p');}
     else if(id==='portfolio-publications-5'||id==='portfolio-publications-2'||id==='portfolio-publications-3'){cards(s,'pf-list','p');}
-    else if(id==='portfolio-publications-4'||id==='portfolio-education'){group(s,true);}
+    else if(id==='portfolio-publications-4'){group(s,true);}
     else if(id==='portfolio-experience-1'||id==='portfolio-experience-2'||id==='portfolio-profile-summary-2'||id==='portfolio-profile-summary-3'){
       group(s,true);
     }else if(id==='portfolio-profile-summary-7'){cards(s,'pf-grid','p');}

@@ -18,20 +18,7 @@ sections:
     content:
       title: Education
       text: |-
-        ### MSc (M2) in Climate, Land-Use and Ecosystem Services
-
-        **AgroParisTech, Université Paris-Saclay**  
-        France | 2024 - 2025
-
-        ### MSc in Environmental Science
-
-        **Bangladesh Agricultural University**  
-        Bangladesh | 2022 - 2024
-
-        ### BSc in Environmental Science
-
-        **Noakhali Science and Technology University**  
-        Bangladesh | 2017 - 2022
+        {{< portfolio-education >}}
     design:
       columns: '1'
   - block: markdown
