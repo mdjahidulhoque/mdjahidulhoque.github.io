@@ -75,6 +75,16 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: portfolio-research-software
+    content:
+      title: 'Research Software & Applications'
+      text: |-
+        - **FABLE Scenathon Live** - Interactive food and land-use scenario analysis and trade adjustment (Python, Streamlit, Plotly).
+        - **FABLE Fair Share Dashboard** - AFOLU emissions budget allocation, fair-share assessment and mitigation gap analysis (Python, Streamlit, Pandas).
+        - **FABLE Scenathon Trade Adjustment Excel Add-in** - Integration of Python-based agricultural trade adjustment into Excel modelling workflows (Python, FastAPI, Office.js).
+    design:
+      columns: '1'
+  - block: markdown
     id: portfolio-research-5
     content:
       title: 'Research Outputs'
