@@ -11,7 +11,7 @@ sections:
       title: 'Professional Experience'
       text: |-
         ### Data Analyst
-        **FABLE Consortium, UN Sustainable Development Solutions Network (UN SDSN)**  
+        **[FABLE Consortium](https://fableconsortium.org/), [UN Sustainable Development Solutions Network (UN SDSN)](https://www.unsdsn.org/)**  
         Paris, France | June 2026 to present
         
         - **Agricultural datasets and model inputs:** Develop and harmonise model-ready agricultural and environmental datasets for the FABLE Calculator, integrating crop classifications, spatial scales and climate scenario inputs.
@@ -28,7 +28,7 @@ sections:
       title: 'Research Experience'
       text: |-
         ### Research Intern
-        **Laboratory for Climate and Environmental Sciences (LSCE), CEA-CNRS | MOSAIC Team**  
+        **[Laboratory for Climate and Environmental Sciences (LSCE)](https://www.lsce.ipsl.fr/), CEA-CNRS | MOSAIC Team**  
         Gif-sur-Yvette, France | May to October 2025
         
         - Implemented and evaluated the Johnson & Berry mechanistic photosynthesis formulation in ORCHIDEE, including early work towards fluorescence-constrained analyses.
@@ -36,7 +36,7 @@ sections:
         - Compiled pulse-amplitude modulation (PAM) chlorophyll fluorescence data and conducted quantitative synthesis of photosynthesis and fluorescence metrics across ecosystems.
         
         ### Research Assistant
-        **Dr. Murad Ahmed Farukh's Lab, Bangladesh Agricultural University**  
+        **Dr. Murad Ahmed Farukh's Lab, [Bangladesh Agricultural University](https://www.bau.edu.bd/)**  
         Mymensingh, Bangladesh | November 2022 to April 2024
         
         - Contributed to FAO-funded research on agricultural land transformation in the Ganges-Padma floodplain.
@@ -44,7 +44,7 @@ sections:
         - Conducted stakeholder surveys and contributed to scientific writing and peer-reviewed publications.
         
         ### Research Assistant
-        **Department of Environmental Science and Disaster Management, NSTU**  
+        **Department of Environmental Science and Disaster Management, [NSTU](https://www.nstu.edu.bd/)**  
         Noakhali, Bangladesh | January 2020 to July 2022
         
         - Supported field and laboratory research on soil and water quality, environmental monitoring and ecological assessment.
