@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: Md. Jahidul Hoque
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://mdjahidulhoque.github.io/'
 
 ############################
 ## LANGUAGE
@@ -40,7 +40,7 @@ pagination:
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+ignoreFiles: ["(^|/)content/(blog|courses|events|slides)/", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]

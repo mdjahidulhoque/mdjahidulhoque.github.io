@@ -13,10 +13,10 @@ hugoblox:
     name: Md. Jahidul Hoque
     organization: ""
     type: person
-    tagline: ""
-    description: "Personal academic website of Md. Jahidul Hoque."
+    tagline: "Environmental Data Analyst and Researcher"
+    description: "Professional and research portfolio of Md. Jahidul Hoque, environmental data analyst and researcher."
     social:
-      twitter: "LoreLabs_"
+      twitter: ""
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -65,8 +65,8 @@ hugoblox:
     align: center
     search: true
     theme_toggle: true
-    theme_picker: true
-    language_switcher: true
+    theme_picker: false
+    language_switcher: false
     cta:
       enable: false
       text: ""

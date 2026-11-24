@@ -1,71 +1,61 @@
 ---
-# Leave the homepage title empty to use the site title
 title: Md. Jahidul Hoque
-summary: Environmental data analyst and researcher working across climate, ecosystems, land-use systems, and Earth observation.
-date: 2026-08-02
+summary: Environmental data analyst and researcher working across climate and ecosystem modelling, Earth observation and integrated food, land and water systems.
 type: landing
-
 design:
-  # Default section spacing
-  spacing: '6rem'
-
+  spacing: '4rem'
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display
       username: me
       text: ''
-
-      # Call-to-action button
       button:
-        text: Download CV
-        url: uploads/CV of Md. Jahidul Hoque.pdf
-
-      # Disable internal section headings
+        text: View Profile Summary
+        url: /profile-summary/
       headings:
         about: ''
         education: ''
         interests: ''
-
     design:
-      # Gradient background
       background:
         gradient_mesh:
-          enable: true
-
-      # Name heading sizing
+          enable: false
       name:
         size: md
-
-      # Avatar customization
       avatar:
         size: medium
         shape: circle
-
   - block: markdown
     content:
-      title: '🤝 Research & Collaboration'
-      subtitle: ''
+      title: Research Focus
       text: |-
-        My work lies at the intersection of climate change, ecosystem processes,
-        land-use systems, agriculture, water resources, and environmental data science.
-        I currently contribute to the FABLE Consortium at the UN Sustainable Development
-        Solutions Network, where I support the development of environmental datasets
-        and analytical workflows for integrated food, land, water, and climate systems.
+        **Climate and ecosystem modelling:** Terrestrial biosphere processes, photosynthesis, chlorophyll fluorescence and ecosystem carbon fluxes.
 
-        My research background is centred on terrestrial biosphere modelling,
-        biosphere–atmosphere interactions, and photosynthesis modelling. At the
-        Laboratory for Climate and Environmental Sciences (LSCE), I worked with
-        the ORCHIDEE terrestrial biosphere model and investigated how chlorophyll
-        fluorescence and eddy-covariance observations can improve photosynthesis
-        and gross primary productivity estimation.
+        **Earth observation and geospatial science:** Land-cover dynamics, climate extremes and spatial environmental analysis.
 
-        I am particularly interested in research that combines process-based ecosystem
-        models, Earth observation, geospatial analysis, and reproducible data science.
-        I welcome collaborations and interdisciplinary projects related to terrestrial
-        ecosystem modelling, climate impacts, land-use and food systems, water resources,
-        remote sensing, and environmental sustainability.
+        **Integrated food, land and water systems:** Agricultural sustainability, irrigation, trade and climate impacts.
 
+        [Explore research and projects](/research/)
+    design:
+      columns: '1'
+  - block: markdown
+    content:
+      title: Selected Publications
+      text: |-
+        - [Integrating land-use dynamics, water quality, and multi-criteria ecological suitability for fish sanctuary prioritization in three major river basins of Bangladesh](https://doi.org/10.1038/s41598-026-72239-x), *Scientific Reports* (2026).
+        - [Transforming the Floodplain: Agricultural Encroachment and Landscape Change in the Northwestern Ganges-Padma Basin](https://doi.org/10.1002/geo2.70067), *Geo: Geography and Environment, 13, e70067* (2026).
+        - [Climatological assessment of pre-monsoon heatwave days in Bangladesh and their relationship to Indo-Pacific circulation anomalies](https://doi.org/10.1007/s11069-025-07746-7), *Natural Hazards* (2026).
+        
+        [View all publications](/publications/)
+    design:
+      columns: '1'
+  - block: markdown
+    content:
+      title: Research and Collaboration
+      text: |-
+        I welcome interdisciplinary collaborations involving ecosystem modelling, climate impacts, Earth observation and sustainable agricultural systems.
+
+        [ResearchGate](https://www.researchgate.net/profile/Md-Hoque-158) | [LinkedIn](https://www.linkedin.com/in/mdjahidulhoque/) | [GitHub](https://github.com/mdjahidulhoque)
     design:
       columns: '1'
 ---

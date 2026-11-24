@@ -9,41 +9,23 @@ name:
   alternate: Jahid
   pronouns: he/him
 
-role: Environmental Data Analyst | Climate & Ecosystem Modelling | Earth Observation
+role: Environmental Data Analyst and Researcher
 
 bio: |
-  I am an environmental researcher and data analyst working at the intersection of climate change,
-  land-use systems, agriculture, water resources, and ecosystem modelling. I currently work with
-  the FABLE Consortium at the UN Sustainable Development Solutions Network (UN SDSN), contributing
-  to environmental data development and analytical workflows that support integrated food, land,
-  water, and climate systems.
+  I am a Data Analyst with the FABLE Consortium at the UN Sustainable Development Solutions Network (UN SDSN), based in Paris, France. My work combines environmental data science, geospatial analysis and integrated food, land, water and climate modelling.
 
-  My research background is centred on terrestrial biosphere modelling, biosphere-atmosphere
-  interactions, and photosynthesis modelling. During my Master's research at the Laboratory for
-  Climate and Environmental Sciences (LSCE), I investigated the use of solar-induced chlorophyll
-  fluorescence (SIF) and eddy-covariance observations to improve photosynthesis and gross primary
-  productivity (GPP) estimation within the ORCHIDEE terrestrial biosphere model.
-
-  I am interested in integrating process-based ecosystem models, Earth observation, geospatial
-  analysis, and environmental data science to better understand ecosystem responses to climate
-  and environmental change.
+  My research focuses on terrestrial biosphere processes, photosynthesis and ecosystem carbon fluxes, with experience in ORCHIDEE, chlorophyll fluorescence and eddy-covariance observations.
 
 affiliations:
   - name: FABLE Consortium, UN Sustainable Development Solutions Network
     url: https://fableconsortium.org
 
-  - name: AgroParisTech, Université Paris-Saclay
-    url: https://www.agroparistech.fr
 
 interests:
-  - Terrestrial biosphere modelling
-  - Photosynthesis and gross primary productivity
-  - Biosphere–atmosphere interactions
-  - Climate and ecosystem modelling
-  - Earth observation and remote sensing
-  - Environmental and geospatial data science
-  - Land-use and food-system analysis
-  - Water resources and agricultural systems
+  - Terrestrial biosphere and photosynthesis modelling
+  - Climate and ecosystem carbon fluxes
+  - Earth observation and geospatial data science
+  - Integrated food, land and water systems
 
 education:
   - degree: Master of Science (M2) in Climate, Land-Use and Ecosystem Services
@@ -53,14 +35,14 @@ education:
     end: 2025-10-31
     summary: |
       - Advanced training in climate science, land-use change, ecosystem services, and terrestrial biosphere modelling.
-      - Studied biosphere–atmosphere interactions, land-surface processes, and ecosystem responses to environmental change.
+      - Studied biosphere-atmosphere interactions, land-surface processes, and ecosystem responses to environmental change.
       - Conducted research on improving photosynthesis and gross primary productivity representation using chlorophyll-fluorescence observations.
 
   - degree: Master of Science in Environmental Science
     institution: Bangladesh Agricultural University
     institution_url: https://www.bau.edu.bd
     start: 2022-10-01
-    end: 2024-04-30
+    end: 2024-03-31
     summary: |
       - Completed graduate-level training in climate change, ecosystem processes, land-use dynamics, and environmental monitoring.
       - Applied GIS and remote-sensing methods to agricultural land-use and environmental-change analysis.
@@ -78,38 +60,41 @@ education:
 
 experience:
   - role: Data Analyst
-    org: FABLE Consortium, UN Sustainable Development Solutions Network
+    org: 'FABLE Consortium, UN Sustainable Development Solutions Network (UN SDSN)'
     start: 2026-06-22
     summary: |
-      - Develop and harmonise global datasets and reproducible analytical workflows for integrated food, agriculture, land-use, water, and climate modelling within the FABLE Calculator.
-      - Reconcile agricultural production, food-balance, and bilateral-trade datasets, including the processing and comparison of FABIO and FAO data.
-      - Build spatially explicit datasets on irrigated area, crop-water requirements, water withdrawal, and water availability using SPAM, ISIMIP, FAO, and other global datasets.
-      - Contribute to improved representation of sustainable water use, environmental-flow constraints, and climate-change impacts in the FABLE Calculator.
-      - Support analytical work on nitrogen use, N2O emissions, agricultural productivity, wildfire risk, and future climate extremes.
-      - Improve a Google Earth Engine application for analysing and visualising climate-extreme indices, climate risks, and land-cover change.
-      - Use Python, R, Google Earth Engine, and geospatial tools to process, validate, harmonise, and visualise large environmental datasets across countries, crops, time periods, and spatial scales.
+      - Develop and harmonise agricultural water datasets covering 56 products across 179 countries, including irrigated areas, crop-specific irrigation requirements and irrigation technology efficiencies.
+      - Build reproducible Python workflows for agricultural production, food balances, bilateral trade and land-use data, with harmonisation, validation and quality-control checks.
+      - Analyse spatial land-use transitions and associated greenhouse gas indicators using FABLE Downscaling within the CHOICE project; contribute to technical documentation and dissemination.
+      - Develop FABLE-C trade-adjustment workflows and integrate fair-share calculations into a web application; support climate-impact and nutrient-related data reviews.
+      - Use Google Earth Engine to analyse climate extremes and land-cover datasets.
+      - Support SOLVE consortium coordination, work-package activities, milestones, deliverables and communication with international partners.
 
   - role: Research Intern
-    org: Laboratory for Climate and Environmental Sciences (LSCE-CEA-CNRS), MOSAIC Team
+    org: 'Laboratory for Climate and Environmental Sciences (LSCE), CEA-CNRS | MOSAIC Team'
     start: 2025-05-01
     end: 2025-10-31
     summary: |
-      - Contributed to the implementation and evaluation of the Johnson and Berry mechanistic photosynthesis framework within the ORCHIDEE terrestrial biosphere model.
-      - Investigated the use of solar-induced chlorophyll fluorescence and eddy-covariance observations to improve photosynthesis and gross primary productivity estimation.
-      - Analysed ecosystem observations and model outputs across multiple eddy-covariance sites.
-      - Conducted literature synthesis and meta-analysis of pulse-amplitude-modulated chlorophyll-fluorescence datasets.
-      - Examined relationships among fluorescence, photosynthesis, and ecosystem carbon fluxes.
-      - Worked with R, Fortran, observational datasets, terrestrial ecosystem model outputs, and high-performance computing workflows.
+      - Implemented and evaluated the Johnson & Berry mechanistic photosynthesis formulation in ORCHIDEE, including early work towards fluorescence-constrained analyses.
+      - Analysed ecosystem observations and model outputs from seven European sites using parameter sensitivity analysis and model-data evaluation.
+      - Compiled pulse-amplitude modulation (PAM) chlorophyll fluorescence data and conducted quantitative synthesis of photosynthesis and fluorescence metrics across ecosystems.
 
   - role: Research Assistant
-    org: Bangladesh Agricultural University
+    org: 'Dr. Murad Ahmed Farukh''s Lab, Bangladesh Agricultural University'
     start: 2022-11-01
     end: 2024-04-30
     summary: |
-      - Contributed to FAO-funded research on agricultural land transformation and land-use change.
-      - Conducted land-use and land-cover analysis using Google Earth Engine, GIS, and remote-sensing datasets.
-      - Integrated field observations with spatial data to assess agricultural land dynamics and environmental change.
-      - Supported data processing, statistical analysis, map production, literature review, and preparation of research outputs.
+      - Contributed to FAO-funded research on agricultural land transformation in the Ganges-Padma floodplain.
+      - Analysed land-use and land-cover change using Google Earth Engine, satellite imagery, GIS and quantitative methods, integrating field observations for validation.
+      - Conducted farmer surveys and contributed to scientific writing and peer-reviewed publications.
+
+  - role: Research Assistant
+    org: 'Department of Environmental Science and Disaster Management, NSTU'
+    start: 2020-01-01
+    end: 2022-07-31
+    summary: |
+      - Supported field and laboratory research on soil and water quality, environmental monitoring and ecological assessment.
+      - Conducted GIS, remote sensing and statistical analyses and trained undergraduate students in programming and environmental data interpretation.
 
 skills:
   - name: Programming & Data Analysis
@@ -152,7 +137,7 @@ languages:
 
   - name: French
     level: 1
-    label: A1
+    label: A2
 
 awards:
   - title: French Government Scholarship
