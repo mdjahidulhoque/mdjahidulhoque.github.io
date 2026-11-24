@@ -3,7 +3,7 @@ title: 'Research'
 summary: 'Research themes and selected projects.'
 type: landing
 design:
-  spacing: '2rem'
+  spacing: '1rem'
 sections:
   - block: markdown
     id: portfolio-research-1
@@ -71,7 +71,7 @@ sections:
         
         ### Methods and tools
         
-        satellite observations, GIS, farmer surveys, field observations and statistical analysis.
+        satellite observations, GIS, stakeholder surveys, field observations and statistical analysis.
     design:
       columns: '1'
   - block: markdown

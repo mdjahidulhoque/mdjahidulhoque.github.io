@@ -41,7 +41,7 @@ sections:
         
         - Contributed to FAO-funded research on agricultural land transformation in the Ganges-Padma floodplain.
         - Analysed land-use and land-cover change using Google Earth Engine, satellite imagery, GIS and quantitative methods, integrating field observations for validation.
-        - Conducted farmer surveys and contributed to scientific writing and peer-reviewed publications.
+        - Conducted stakeholder surveys and contributed to scientific writing and peer-reviewed publications.
         
         ### Research Assistant
         **Department of Environmental Science and Disaster Management, NSTU**  

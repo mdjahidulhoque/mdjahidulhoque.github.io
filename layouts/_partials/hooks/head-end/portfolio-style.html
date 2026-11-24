@@ -120,6 +120,17 @@ body:has(a[href="/publications/"].active) article .prose {max-width:68rem;width:
 #portfolio-education .pf-card p strong{color:var(--pf-accent);font-weight:600}
 @media(max-width:960px){.pf-publication-page{width:min(100% - 2rem,72rem)}.pf-publication-layout{grid-template-columns:minmax(0,1fr)}.pf-publication-toc{position:static;order:-1;border:1px solid var(--pf-line);border-radius:8px;padding:1rem}.pf-publication-toc nav>ul{display:flex;flex-wrap:wrap;gap:.25rem 1rem}.pf-publication-toc ul ul{display:none}}
 @media(max-width:700px){.pf-hero{grid-template-columns:1fr;gap:1.5rem}.pf-hero-about{text-align:left}.pf-publication-body p{padding:1rem}.pf-publication-header{margin-bottom:1.25rem}}
+
+/* Keep each research theme together, with compact internal spacing. */
+section[id^="portfolio-research-"]{padding-block:clamp(.85rem,1.6vw,1.4rem)!important}
+section[id^="portfolio-research-"] .section-heading{margin-bottom:.85rem!important}
+section[id^="portfolio-research-"] .pf-card{padding:clamp(1rem,1.7vw,1.5rem)!important}
+section[id^="portfolio-research-"] .pf-card p{margin-block:.35rem .65rem!important;line-height:1.6!important}
+section[id^="portfolio-research-"] .pf-card h3{font-size:1.08em!important;margin-block:.95rem .3rem!important;line-height:1.35!important}
+section[id^="portfolio-research-"] .pf-card h3+p{color:inherit}
+section[id^="portfolio-research-"] .pf-card ul{margin-block:.3rem .65rem!important}
+section[id^="portfolio-research-"] .pf-card li{margin-block:.25rem!important;line-height:1.6!important}
+section[id^="portfolio-research-"] .pf-card > :last-child{margin-bottom:0!important}
 </style>
 <script>
 document.addEventListener('DOMContentLoaded',function(){
@@ -165,7 +176,7 @@ document.addEventListener('DOMContentLoaded',function(){
     else if(id==='portfolio-experience-1'||id==='portfolio-experience-2'||id==='portfolio-profile-summary-2'||id==='portfolio-profile-summary-3'){
       group(s,true);
     }else if(id==='portfolio-profile-summary-7'){cards(s,'pf-grid','p');}
-    else if(/^portfolio-research-[234]$/.test(id)){group(s,true);}
+    else if(/^portfolio-research-[234]$/.test(id)){group(s,false);}
     else if(id==='portfolio-experience-4'||id.startsWith('portfolio-research-')||id==='portfolio-profile-summary-1'||id==='portfolio-publications-6'||id==='portfolio-home-3'){
       group(s,false);
     }
