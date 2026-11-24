@@ -144,6 +144,18 @@ document.addEventListener('DOMContentLoaded',function(){
     footer.append(document.createTextNode('© '+new Date().getFullYear()+' Md. Jahidul Hoque | '),contact);
     document.body.append(footer);
   }
+  document.querySelectorAll('a[href]').forEach(a=>{
+    const href=a.getAttribute('href');
+    if(href==='mailto:mdjahidul.hoque@unsdsn.org'){
+      a.href='https://mail.google.com/mail/?view=cm&fs=1&to=mdjahidul.hoque%40unsdsn.org';
+      a.target='_blank';a.rel='noopener noreferrer';
+      a.title='Compose email in Gmail (opens in a new tab)';
+      return;
+    }
+    if(/^https?:\/\//i.test(href)&&new URL(href,location.href).origin!==location.origin){
+      a.target='_blank';a.rel='noopener noreferrer';
+    }
+  });
   const sections=Array.from(document.querySelectorAll('section[id^="portfolio-"]')).filter(s=>s.id!=='portfolio-hero');
   const prose=s=>s.querySelector('.prose');
   function cards(s,mode,selector){
