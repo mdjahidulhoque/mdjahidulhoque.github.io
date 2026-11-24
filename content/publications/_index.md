@@ -45,9 +45,17 @@ sections:
   - block: markdown
     id: portfolio-publications-4
     content:
-      title: 'Master’s Thesis'
+      title: 'Master’s Theses'
       text: |-
-        **Enhancing Global Photosynthesis Estimation through the Farquhar Model Recharged: Mechanistic Light-Dependent Reactions of Photosynthesis.** AgroParisTech, Université Paris-Saclay; research conducted at LSCE (CEA-CNRS), 2025.
+        ### M2 Thesis | AgroParisTech, Université Paris-Saclay (2025)
+        
+        **Enhancing Global Photosynthesis Estimation through the Farquhar Model Recharged: Mechanistic Light-Dependent Reactions of Photosynthesis**  
+        Research conducted at LSCE (CEA-CNRS), France.
+        
+        ### MSc Thesis | Bangladesh Agricultural University (2024)
+        
+        **Assessment of the Transformation of Agricultural Land Based on Land Use Land Cover (LULC) Dynamics in the Ganges-Padma Floodplain**  
+        MSc in Environmental Science, Bangladesh Agricultural University, Bangladesh.
     design:
       columns: '1'
   - block: markdown
