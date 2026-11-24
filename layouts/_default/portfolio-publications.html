@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main class="pf-publication-page" id="main-content">
+  <header class="pf-publication-header">
+    <h1>{{ .Title }}</h1>
+    <p>Journal articles, technical reports, theses and conference contributions.</p>
+  </header>
+  <div class="pf-publication-layout">
+    <div class="pf-publication-body" data-pagefind-body>{{ .Content }}</div>
+    <aside class="pf-publication-toc" aria-label="On this page">
+      <h2>On this page</h2>
+      {{ .TableOfContents }}
+    </aside>
+  </div>
+</main>
+{{ end }}

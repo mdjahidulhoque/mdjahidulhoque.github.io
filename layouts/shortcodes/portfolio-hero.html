@@ -1,0 +1,15 @@
+{{ $author := index site.Data.authors "me" }}
+{{ $photo := resources.Get "media/authors/me.jpeg" }}
+<div class="pf-hero">
+  <div class="pf-hero-identity">
+    {{ with $photo }}<img class="pf-hero-photo" src="{{ .RelPermalink }}" alt="Portrait of Md. Jahidul Hoque" width="196" height="196" fetchpriority="high">{{ end }}
+    <h1>Md. Jahidul Hoque</h1>
+    <p class="pf-role">Environmental Data Analyst and Researcher</p>
+    <p class="pf-affiliation">FABLE Consortium, UN Sustainable Development Solutions Network<br>Paris, France</p>
+  </div>
+  <div class="pf-hero-about">
+    <h2>Professional Summary</h2>
+    {{ with $author.bio }}{{ . | markdownify }}{{ end }}
+    <p class="pf-hero-links"><a href="https://www.researchgate.net/profile/Md-Hoque-158">ResearchGate</a><a href="https://www.linkedin.com/in/mdjahidulhoque/">LinkedIn</a></p>
+  </div>
+</div>

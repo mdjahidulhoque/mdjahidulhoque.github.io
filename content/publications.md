@@ -2,6 +2,7 @@
 title: Publications
 summary: Journal articles, technical notes, manuscripts, theses and conference contributions.
 type: page
+layout: portfolio-publications
 url: /publications/
 ---
 

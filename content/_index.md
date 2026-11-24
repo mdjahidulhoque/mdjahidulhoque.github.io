@@ -5,24 +5,35 @@ type: landing
 design:
   spacing: '2rem'
 sections:
-  - block: resume-biography-3
+  - block: markdown
     id: portfolio-hero
     content:
-      username: me
-      text: ''
-      headings:
-        about: ''
-        education: ''
-        interests: ''
+      title: ''
+      text: |-
+        {{< portfolio-hero >}}
     design:
-      background:
-        gradient_mesh:
-          enable: false
-      name:
-        size: md
-      avatar:
-        size: medium
-        shape: circle
+      columns: '1'
+  - block: markdown
+    id: portfolio-education
+    content:
+      title: Education
+      text: |-
+        ### MSc (M2) in Climate, Land-Use and Ecosystem Services
+
+        **AgroParisTech, Université Paris-Saclay**  
+        France | 2024 - 2025
+
+        ### MSc in Environmental Science
+
+        **Bangladesh Agricultural University**  
+        Bangladesh | 2022 - 2024
+
+        ### BSc in Environmental Science
+
+        **Noakhali Science and Technology University**  
+        Bangladesh | 2017 - 2022
+    design:
+      columns: '1'
   - block: markdown
     id: portfolio-home-1
     content:
