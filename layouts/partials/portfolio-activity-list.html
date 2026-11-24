@@ -4,7 +4,7 @@
 <div class="pf-activity-list">
 {{ range $entries }}
 <article class="pf-activity-card">
-  <div class="pf-activity-meta">{{ time.Format "2 January 2006" .date }} | {{ .category }}</div>
+  <div class="pf-activity-meta">{{ with .date_display }}{{ . }}{{ else }}{{ time.Format "2 January 2006" .date }}{{ end }} | {{ .category }}</div>
   <h2>{{ .title }}</h2>
   <p class="pf-activity-location">{{ .location }}</p>
   <p>{{ .description }}</p>
@@ -16,7 +16,7 @@
     {{ if or (not $latest) (eq $i 0) }}<a href="{{ $photo.file | relURL }}" target="_blank" rel="noopener noreferrer"><img src="{{ $photo.file | relURL }}" alt="{{ $photo.alt }}" loading="lazy"></a>{{ end }}
   {{ end }}
   </div>
-  <p class="pf-activity-credit">Photo credit: {{ .credit }}</p>
+  {{ with .credit }}<p class="pf-activity-credit">Photo credit: {{ . }}</p>{{ end }}
   {{ end }}
 </article>
 {{ end }}
