@@ -8,16 +8,48 @@
   <h2>{{ .title }}</h2>
   <p class="pf-activity-location">{{ .location }}</p>
   <p>{{ .description }}</p>
-  {{ $photos := slice }}
-  {{ range .images }}{{ if fileExists (printf "static/%s" .file) }}{{ $photos = $photos | append . }}{{ end }}{{ end }}
-  {{ if $photos }}
-  <div class="pf-activity-gallery">
-  {{ range $i, $photo := $photos }}
-    {{ if or (not $latest) (eq $i 0) }}<a href="{{ $photo.file | relURL }}" target="_blank" rel="noopener noreferrer"><img src="{{ $photo.file | relURL }}" alt="{{ $photo.alt }}" loading="lazy"></a>{{ end }}
+  {{ $activity := . }}
+  {{ $galleries := .galleries }}
+  {{ if not $galleries }}{{ $galleries = slice (dict "folder" "activities/graduation-2026" "title" "" "cover" "cohort.JPG") }}{{ end }}
+  {{ $coverShown := false }}
+  {{ $hasPhotos := false }}
+  {{ range $galleries }}
+    {{ $gallery := . }}
+    {{ $folder := printf "static/%s" .folder }}
+    {{ $photos := slice }}
+    {{ if fileExists $folder }}
+      {{ range readDir $folder }}
+        {{ if and (not .IsDir) (in (slice ".jpg" ".jpeg" ".png" ".webp" ".avif" ".gif") (lower (path.Ext .Name))) }}
+          {{ $photos = $photos | append .Name }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ with $gallery.cover }}{{ if in $photos . }}{{ $photos = (slice .) | append (complement (slice .) $photos) }}{{ end }}{{ end }}
+    {{ if and $photos (or (not $latest) (not $coverShown)) }}
+      {{ $hasPhotos = true }}
+      {{ if not $latest }}{{ with $gallery.title }}<h3 class="pf-gallery-title">{{ . }}</h3>{{ end }}{{ end }}
+      {{ $visible := $photos }}
+      {{ if $latest }}{{ $visible = first 1 $photos }}{{ else }}{{ $visible = first 6 $photos }}{{ end }}
+      <div class="pf-activity-gallery">
+        {{ range $visible }}
+          {{ $url := printf "%s/%s" $gallery.folder . | relURL }}
+          <a href="{{ $url }}" target="_blank" rel="noopener noreferrer"><img src="{{ $url }}" alt="{{ $activity.title }}{{ with $gallery.title }} | {{ . }}{{ end }}" loading="lazy" decoding="async"></a>
+        {{ end }}
+      </div>
+      {{ if and (not $latest) (gt (len $photos) 6) }}
+      <details class="pf-gallery-more"><summary>View all {{ len $photos }} photos</summary>
+        <div class="pf-activity-gallery">
+          {{ range after 6 $photos }}
+            {{ $url := printf "%s/%s" $gallery.folder . | relURL }}
+            <a href="{{ $url }}" target="_blank" rel="noopener noreferrer"><img src="{{ $url }}" alt="{{ $activity.title }}{{ with $gallery.title }} | {{ . }}{{ end }}" loading="lazy" decoding="async"></a>
+          {{ end }}
+        </div>
+      </details>
+      {{ end }}
+      {{ $coverShown = true }}
+    {{ end }}
   {{ end }}
-  </div>
-  {{ with .credit }}<p class="pf-activity-credit">Photo credit: {{ . }}</p>{{ end }}
-  {{ end }}
+  {{ if $hasPhotos }}{{ with .credit }}<p class="pf-activity-credit">Photo credit: {{ . }}</p>{{ end }}{{ end }}
 </article>
 {{ end }}
 {{ if $latest }}<p><a href="{{ "activities/" | relURL }}">View all activities</a></p>{{ end }}
