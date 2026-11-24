@@ -11,3 +11,6 @@ main:
   - name: Publications
     url: /publications/
     weight: 50
+  - name: News & Activities
+    url: /activities/
+    weight: 60

@@ -41,19 +41,9 @@ sections:
   - block: markdown
     id: portfolio-home-2
     content:
-      title: Selected Publications
+      title: Latest Activities
       text: |-
-        **Integrating land-use dynamics, water quality, and multi-criteria ecological suitability for fish sanctuary prioritization in three major river basins of Bangladesh**  
-        *Scientific Reports* · 2026 · [Read article](https://doi.org/10.1038/s41598-026-72239-x)
-
-        **Transforming the Floodplain: Agricultural Encroachment and Landscape Change in the Northwestern Ganges-Padma Basin**  
-        *Geo: Geography and Environment, 13, e70067* · 2026 · [Read article](https://doi.org/10.1002/geo2.70067)
-
-        **Climatological assessment of pre-monsoon heatwave days in Bangladesh and their relationship to Indo-Pacific circulation anomalies**  
-        *Natural Hazards* · 2026 · [Read article](https://doi.org/10.1007/s11069-025-07746-7)
-
-        
-        [View all publications](/publications/)
+        {{< portfolio-activities latest="true" >}}
     design:
       columns: '1'
   - block: markdown

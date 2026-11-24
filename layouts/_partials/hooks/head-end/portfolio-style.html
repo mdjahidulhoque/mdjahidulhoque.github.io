@@ -154,6 +154,20 @@ footer:not(.pf-personal-footer) {display:none!important}
 .pf-edu-logos{display:flex;align-items:center;justify-content:flex-end;gap:.75rem;flex-shrink:0}
 #portfolio-education .pf-edu-logos img{width:auto;max-width:112px;height:64px;object-fit:contain;margin:0!important;padding:4px;background:#fff;border-radius:4px}
 @media(max-width:600px){.pf-edu-row{flex-wrap:wrap;padding:1rem}.pf-edu-info{flex-basis:100%}.pf-edu-logos{margin-left:auto}#portfolio-education .pf-edu-logos img{height:48px;max-width:90px}}
+
+.pf-activity-page{width:min(100% - 2rem,72rem);margin:auto;padding:clamp(2rem,4vw,4rem) 0;color:var(--pf-ink)}
+.pf-activity-page header{margin-bottom:2rem}
+.pf-activity-page header h1{font-size:clamp(2rem,4vw,2.8rem);font-weight:750;line-height:1.2;margin-bottom:.5rem}
+.pf-activity-page header p,.pf-activity-location,.pf-activity-meta,.pf-activity-credit{color:var(--pf-muted)}
+.pf-activity-list{display:grid;gap:1.2rem;width:100%}
+.pf-activity-card{border:1px solid var(--pf-line);border-radius:12px;padding:clamp(1rem,3vw,2rem);background:var(--pf-card);line-height:1.7;min-width:0}
+.pf-activity-card h2{font-size:clamp(1.2rem,2vw,1.55rem)!important;font-weight:700;margin:.45rem 0!important;line-height:1.35}
+.pf-activity-meta,.pf-activity-credit{font-size:.85rem}
+.pf-activity-card p{margin:.6rem 0!important}
+.pf-activity-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:.8rem;margin-top:1rem}
+.pf-activity-gallery img{width:100%;aspect-ratio:3/2;object-fit:contain;background:var(--pf-soft);border-radius:8px;margin:0!important}
+#portfolio-home-2 .pf-activity-gallery{max-width:34rem}
+.pf-activity-list a{color:var(--pf-accent)}
 </style>
 <script>
 document.addEventListener('DOMContentLoaded',function(){
