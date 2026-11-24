@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: Md. Jahidul Hoque
 # Website URL
-baseURL: 'https://mdjahidulhoque.github.io/'
+baseURL: 'https://jahidulhoque.com/'
 
 ############################
 ## LANGUAGE
