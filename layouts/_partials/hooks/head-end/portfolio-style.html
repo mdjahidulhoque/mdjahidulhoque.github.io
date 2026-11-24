@@ -38,6 +38,18 @@ a[href^="https://github.com/mdjahidulhoque"],a.github-button {display:none!impor
 @media(max-width:640px){section[id^="portfolio-"] .prose {font-size:1rem!important} .pf-card{padding:1rem} .pf-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.pf-controls,.pf-jump,header,footer{display:none!important}.pf-card{break-inside:avoid;box-shadow:none}section[id^="portfolio-"]{padding-block:.5rem!important}}
+
+section[id^="portfolio-"]:not(#portfolio-hero) .pf-card {overflow-wrap:anywhere}
+.pf-card > p > strong:first-child {font-size:1.04em;line-height:1.45}
+.pf-card > p > br + em {color:var(--pf-muted)}
+.pf-card > h3:first-child {margin-top:0!important}
+.pf-card > h3 + p {color:var(--pf-muted);line-height:1.5}
+.pf-card > ul {margin-bottom:0!important}
+.pf-grid .pf-card {height:100%}
+.pf-grid .pf-card > p {line-height:1.6}
+.pf-card a {overflow-wrap:anywhere}
+.pf-list .pf-card {margin:0!important}
+@media(min-width:900px){.pf-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#portfolio-home-1 .pf-grid,#portfolio-profile-summary-4 .pf-grid,#portfolio-profile-summary-8 .pf-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 </style>
 <script>
 document.addEventListener('DOMContentLoaded',function(){
@@ -52,6 +64,18 @@ document.addEventListener('DOMContentLoaded',function(){
     nodes.forEach(n=>{const card=document.createElement('article');card.className='pf-card';wrap.append(card);card.append(n);});
     return wrap;
   }
+  function group(s,byHeading){
+    const p=prose(s);if(!p)return;
+    const nodes=Array.from(p.children);if(!nodes.length)return;
+    const wrap=document.createElement('div');wrap.className='pf-list';p.prepend(wrap);
+    let card=null;
+    nodes.forEach(n=>{
+      if(!card||(byHeading&&n.tagName==='H3')){
+        card=document.createElement('article');card.className='pf-card';wrap.append(card);
+      }
+      card.append(n);
+    });
+  }
   sections.forEach(s=>{
     const id=s.id,p=prose(s);if(!p)return;
     if(id==='portfolio-home-1'||id==='portfolio-profile-summary-5'||id==='portfolio-experience-3'){
@@ -65,11 +89,13 @@ document.addEventListener('DOMContentLoaded',function(){
         const update=()=>{let n=0;Array.from(w.children).forEach(c=>{c.hidden=!c.textContent.toLowerCase().includes(input.value.trim().toLowerCase());if(!c.hidden)n++});count.textContent=n+' article'+(n===1?'':'s')};
         input.addEventListener('input',update);update();
       }
-    }else if(id==='portfolio-profile-summary-4'){cards(s,'pf-grid','p');}
-    else if(id==='portfolio-publications-5'){cards(s,'pf-list','p');}
+    }else if(id==='portfolio-profile-summary-4'||id==='portfolio-profile-summary-8'){cards(s,'pf-grid','p');}
+    else if(id==='portfolio-publications-5'||id==='portfolio-publications-2'||id==='portfolio-publications-3'){cards(s,'pf-list','p');}
+    else if(id==='portfolio-publications-4'){group(s,true);}
     else if(id==='portfolio-experience-1'||id==='portfolio-experience-2'||id==='portfolio-profile-summary-2'||id==='portfolio-profile-summary-3'){
-      let card=null;const children=Array.from(p.children);
-      children.forEach(n=>{if(n.tagName==='H3'){card=document.createElement('article');card.className='pf-card';card.style.marginBottom='1rem';n.before(card);}if(card)card.append(n);});
+      group(s,true);
+    }else if(id==='portfolio-profile-summary-7'||id==='portfolio-experience-4'||id.startsWith('portfolio-research-')||id==='portfolio-profile-summary-1'||id==='portfolio-publications-6'||id==='portfolio-home-3'){
+      group(s,false);
     }
   });
   if(sections.length>3&&location.pathname!=='/'){

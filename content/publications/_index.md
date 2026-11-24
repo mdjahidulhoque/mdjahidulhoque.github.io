@@ -31,7 +31,9 @@ sections:
     content:
       title: 'Technical Notes and Reports'
       text: |-
-        Douzal, C., Mosnier, A., Cozza, D., Chemarin, C., **Hoque, M. J.**, & Marques Iablonovski, G. (2026). *Guidelines for using the FABLE Downscaling framework: Spatial land-use transitions and associated GHG emissions.* Zenodo, Technical Note, Version 1 (15 September 2026), CHOICE community collection.
+        **Guidelines for using the FABLE Downscaling framework: Spatial land-use transitions and associated GHG emissions.**  
+        Douzal, C., Mosnier, A., Cozza, D., Chemarin, C., **Hoque, M. J.**, & Marques Iablonovski, G. (2026).  
+        Zenodo, Technical Note, Version 1 (15 September 2026), CHOICE community collection.
     design:
       columns: '1'
   - block: markdown
@@ -39,7 +41,9 @@ sections:
     content:
       title: 'Manuscripts Under Review'
       text: |-
-        Hossain, M. S., Farukh, M. A., **Hoque, M. J.**, Brahma, P. P., & Arefin, K. S. (2026). *Coupling Land Use Change, Surface Warming, and Methane Emissions in Bangladesh’s Haor Wetlands: A 33-Year Remote Sensing Assessment (1990-2023).* Manuscript under review.
+        **Coupling Land Use Change, Surface Warming, and Methane Emissions in Bangladesh’s Haor Wetlands: A 33-Year Remote Sensing Assessment (1990-2023).**  
+        Hossain, M. S., Farukh, M. A., **Hoque, M. J.**, Brahma, P. P., & Arefin, K. S. (2026).  
+        Manuscript under review.
     design:
       columns: '1'
   - block: markdown
@@ -63,13 +67,20 @@ sections:
     content:
       title: 'Conference Contributions'
       text: |-
-        Martini, D., **Hoque, M. J.**, Johnson, J. E., Wohlfahrt, G., & Maignan, F. (2025). *Temperature Response of the Johnson & Berry Model: Steps toward SIF-Constrained GPP Estimation in ORCHIDEE.* AGU Fall Meeting 2025, poster.
+        **Temperature Response of the Johnson & Berry Model: Steps toward SIF-Constrained GPP Estimation in ORCHIDEE.**  
+        Martini, D., **Hoque, M. J.**, Johnson, J. E., Wohlfahrt, G., & Maignan, F. (2025).  
+        AGU Fall Meeting 2025, poster.
         
-        **Hoque, M. J.**, Hossain, M. S., & Farukh, M. A. (2024). *Assessment of the Transformation of Agricultural Land Based on Land Use and Land Cover (LULC) Dynamics in the Ganges-Padma Floodplain.* International Conference on Advanced Agricultural Research, Sylhet Agricultural University.
+        **Assessment of the Transformation of Agricultural Land Based on Land Use and Land Cover (LULC) Dynamics in the Ganges-Padma Floodplain.**  
+        **Hoque, M. J.**, Hossain, M. S., & Farukh, M. A. (2024).  
+        International Conference on Advanced Agricultural Research, Sylhet Agricultural University.
         
-        Hossain, M. S., **Hoque, M. J.**, & Farukh, M. A. (2024). *Assessment of Land Use Land Cover (LULC) and Land Surface Temperature (LST) on Methane (CH4) Concentration Emitted from Agricultural Fields in the North-Eastern Haor Areas of Bangladesh.* International Conference on Advanced Agricultural Research, Sylhet Agricultural University.
+        **Assessment of Land Use Land Cover (LULC) and Land Surface Temperature (LST) on Methane (CH4) Concentration Emitted from Agricultural Fields in the North-Eastern Haor Areas of Bangladesh.**  
+        Hossain, M. S., **Hoque, M. J.**, & Farukh, M. A. (2024).  
+        International Conference on Advanced Agricultural Research, Sylhet Agricultural University.
         
-        *Seasonal Variabilities and Human Casualties of Lightning Events in Bangladesh Using Vaisala GLD360 Data.* 8th Annual International Conference on Social Research in Bangladesh (2023), oral presentation.
+        **Seasonal Variabilities and Human Casualties of Lightning Events in Bangladesh Using Vaisala GLD360 Data**  
+        8th Annual International Conference on Social Research in Bangladesh (2023), oral presentation.
     design:
       columns: '1'
   - block: markdown

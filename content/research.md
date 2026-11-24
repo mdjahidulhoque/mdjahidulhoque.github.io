@@ -20,7 +20,9 @@ sections:
       text: |-
         **LSCE, MOSAIC Team | ORCHIDEE**
         
-        Mechanistic light-dependent photosynthesis, solar-induced chlorophyll fluorescence, gross primary productivity and model-data evaluation across seven European sites. Methods include R, Fortran, sensitivity analysis and quantitative synthesis of PAM fluorescence data.
+        **Research scope:** Mechanistic light-dependent photosynthesis, solar-induced chlorophyll fluorescence, gross primary productivity and model-data evaluation across seven European sites.
+        
+        **Methods and tools:** R, Fortran, sensitivity analysis and quantitative synthesis of PAM fluorescence data.
     design:
       columns: '1'
   - block: markdown
@@ -30,7 +32,9 @@ sections:
       text: |-
         **FABLE Consortium | UN SDSN**
         
-        Global agricultural and irrigation datasets, land-use transitions, trade adjustment, environmental indicators and fair-share emissions analysis. Contributions include FABLE-C, CHOICE and SOLVE activities. Methods include Python, R, Google Earth Engine and reproducible geospatial workflows.
+        **Research scope:** Global agricultural and irrigation datasets, land-use transitions, trade adjustment, environmental indicators and fair-share emissions analysis. Contributions include FABLE-C, CHOICE and SOLVE activities.
+        
+        **Methods and tools:** Python, R, Google Earth Engine and reproducible geospatial workflows.
     design:
       columns: '1'
   - block: markdown
@@ -40,7 +44,9 @@ sections:
       text: |-
         **Bangladesh Agricultural University and NSTU**
         
-        Agricultural land transformation in the Ganges-Padma floodplain, wetland land-use dynamics, surface temperature and environmental monitoring. Methods include satellite observations, GIS, farmer surveys, field observations and statistical analysis.
+        **Research scope:** Agricultural land transformation in the Ganges-Padma floodplain, wetland land-use dynamics, surface temperature and environmental monitoring.
+        
+        **Methods and tools:** satellite observations, GIS, farmer surveys, field observations and statistical analysis.
     design:
       columns: '1'
   - block: markdown

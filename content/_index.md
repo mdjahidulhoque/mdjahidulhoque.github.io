@@ -31,11 +31,14 @@ sections:
     content:
       title: Research Focus
       text: |-
-        **Climate and ecosystem modelling:** Terrestrial biosphere processes, photosynthesis, chlorophyll fluorescence and ecosystem carbon fluxes.
+        **Climate and ecosystem modelling**  
+        Terrestrial biosphere processes, photosynthesis, chlorophyll fluorescence and ecosystem carbon fluxes.
 
-        **Earth observation and geospatial science:** Land-cover dynamics, climate extremes and spatial environmental analysis.
+        **Earth observation and geospatial science**  
+        Land-cover dynamics, climate extremes and spatial environmental analysis.
 
-        **Integrated food, land and water systems:** Agricultural sustainability, irrigation, trade and climate impacts.
+        **Integrated food, land and water systems**  
+        Agricultural sustainability, irrigation, trade and climate impacts.
 
         [Explore research and projects](/research/)
     design:

@@ -56,13 +56,17 @@ sections:
     content:
       title: 'Technical Expertise'
       text: |-
-        **Programming and statistics:** Python, R, Fortran, SPSS, Minitab, Git/GitHub, Linux/HPC, statistical analysis, data harmonisation and visualisation.
+        **Programming and statistics**  
+        Python, R, Fortran, SPSS, Minitab, Git/GitHub, Linux/HPC, statistical analysis, data harmonisation and visualisation.
         
-        **Modelling and geospatial analysis:** ORCHIDEE, FABLE Calculator, FABLE Downscaling, Google Earth Engine, ArcGIS/ArcGIS Pro, QGIS, ILWIS, OriginPro and GraphPad Prism.
+        **Modelling and geospatial analysis**  
+        ORCHIDEE, FABLE Calculator, FABLE Downscaling, Google Earth Engine, ArcGIS/ArcGIS Pro, QGIS, ILWIS, OriginPro and GraphPad Prism.
         
-        **Life cycle assessment:** SimaPro, openLCA, global warming potential (GWP), life cycle impact assessment and environmental indicators.
+        **Life cycle assessment**  
+        SimaPro, openLCA, global warming potential (GWP), life cycle impact assessment and environmental indicators.
         
-        **Research and programme support:** Model-data evaluation, sensitivity analysis, scientific documentation, partner coordination and deliverable tracking.
+        **Research and programme support**  
+        Model-data evaluation, sensitivity analysis, scientific documentation, partner coordination and deliverable tracking.
     design:
       columns: '1'
   - block: markdown
