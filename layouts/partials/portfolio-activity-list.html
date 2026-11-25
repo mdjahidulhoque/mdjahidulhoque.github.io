@@ -24,6 +24,7 @@
         {{ end }}
       {{ end }}
     {{ end }}
+    {{ with $gallery.exclude }}{{ $photos = complement . $photos }}{{ end }}
     {{ with $gallery.cover }}{{ if in $photos . }}{{ $photos = (slice .) | append (complement (slice .) $photos) }}{{ end }}{{ end }}
     {{ if and $photos (or (not $latest) (not $coverShown)) }}
       {{ $hasPhotos = true }}

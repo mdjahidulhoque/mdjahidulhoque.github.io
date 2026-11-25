@@ -7,6 +7,7 @@
   galleries:
     - title: "Conference Highlights"
       folder: "activities/choice-athens-2026/conference"
+      exclude: ["IMG_0102.jpg"]
     - title: "Exploring Athens"
       folder: "activities/choice-athens-2026/athens"
 - title: "Master's Graduation Ceremony | Université Paris-Saclay"
